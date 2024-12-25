@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: "Your Site Name"
+theme:
+  name: "material"
+docs_dir: "/workspaces/ParagEkbote.github.io/src"
+nav:
+  - Home: index.md
+
