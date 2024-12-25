@@ -1,1 +1,0 @@
-This website has been created using [Pelican](https://docs.getpelican.com/en/latest/index.html)
