@@ -1,7 +1,53 @@
-site_name: "Your Site Name"
+site_name: "Parag Ekbote"
+site_description: Efficient Triton Kernels for LLM Training
 theme:
   name: "material"
-docs_dir: "/workspaces/ParagEkbote.github.io/src"
-nav:
+  font:
+    text: Open Sans
+  features:
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+    - navigation.sections
+  nav:
   - Home: index.md
+  - Contributions: Contributions.md
+  - Projects: Projects.md
+  - Work Experience: Work Experience.md
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: brown
+      accent: light blue
 
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: teal
+      accent: blue
+docs_dir: "/workspaces/ParagEkbote.github.io/src"
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
