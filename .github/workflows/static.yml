@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Adjust this path to your static site content directory
-          path: './src'
+          path: './site'
 
       - name: Deploy to GitHub Pages
         id: deployment
