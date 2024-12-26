@@ -1,5 +1,5 @@
 site_name: "Parag Ekbote"
-site_description: Efficient Triton Kernels for LLM Training
+site_description: "Personal Website "
 theme:
   name: "material"
   font:
@@ -11,9 +11,9 @@ theme:
     - navigation.sections
   nav:
   - Home: index.md
-  - Contributions: Contributions.md
+  - Education & Work Experience: Education & Work Experience.md
+  - Open Source Contributions: Open-Source Contributions.md
   - Projects: Projects.md
-  - Work Experience: Work Experience.md
   palette:
     # Dark Mode
     - scheme: slate
