@@ -1,7 +1,8 @@
 
 ### Education
 
-#### Bachelor of Technology in Artifical Intelligence & Data Science 
+*Bachelor of Technology in Artifical Intelligence & Data Science*
+
 **Dr. D.Y. Patil Vidyapeeth** — *Pune, India*  
 *(2024 –  2027)*        
 

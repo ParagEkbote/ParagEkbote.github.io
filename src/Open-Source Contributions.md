@@ -1,9 +1,9 @@
-Here, you can view my journey in the open-source world. They can be classified into 2 categories as shown below:
+The contributions can be classified into 2 categories as shown below:
 
 ## Code Contributions
 
 
-## Documentation
+## Documentation Contributions
 
 1. [huggingface/diffusers](https://github.com/huggingface/diffusers): Update jupyter notebook links for Diffusers community pipelines and 
 scripts [PR #10094](https://github.com/huggingface/diffusers/pull/10094), [PR #10032](https://github.com/huggingface/diffusers/pull/10032), [PR #9952](https://github.com/huggingface/diffusers/pull/9952), [PR #9905](https://github.com/huggingface/diffusers/pull/9905).
