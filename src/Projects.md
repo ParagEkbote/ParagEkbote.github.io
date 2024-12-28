@@ -1,6 +1,6 @@
 I believe projects are a great way to implement core concepts for specific topics. This hands-on experience not only reinforces my understanding but also sparks my curiosity.
 
-Active Projects:
+**Active Projects**:
 
 1) [bash-mastery](https://github.com/ParagEkbote/bash-mastery)
 
