@@ -1,14 +1,14 @@
 
-### Education
+### **Education**
 
-**Bachelor of Technology in Artifical Intelligence & Data Science**
+*Bachelor of Technology in Artifical Intelligence & Data Science*
 
 ![alt text](image-4.png){: width="25%" height="300px"}
 
 **Dr. D.Y. Patil Vidyapeeth** — *Pune, India*  
 *(2024 –  2027)*        
 
-### Work Experience
+### **Work Experience**
 
 ![alt text](image-3.png){: width="35%" height="300px"}
 
