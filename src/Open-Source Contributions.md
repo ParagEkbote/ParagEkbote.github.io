@@ -1,37 +1,53 @@
-The contributions can be classified into 2 categories as shown below:
+# **Open-Source Contributions**   
+I enjoy contributing to open-source projects. My aim is to ensure better performance, usability and making technical information accessible.
 
-## **Code Contributions**:
+## **Code Contributions** 🛠️  
+---
 
-![alt text](image-5.png){: width="10%" height="300px"}
+![Lightning-AI](image-5.png){: width="10%" height="300px"}  
+### [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt)  
+**PR #1821:** Removed support for 5+ obsolete LLM models.  
+[View Pull Request](https://github.com/Lightning-AI/litgpt/pull/1821)
 
-1) [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt):
+---
 
-![alt text](image.png){: width="40%" height="300px"}
+![HuggingFace Notebooks](image-2.png){: width="10%" height="300px"}  
+### [huggingface/notebooks](https://github.com/huggingface/notebooks)  
+- **PR #525:** Added 15+ Jupyter notebooks for community scripts and pipelines.  
+- **PR #535, #527, #536:** Further enhancements to notebooks.  
+[View Pull Requests](https://github.com/huggingface/notebooks/pulls?q=is%3Apr+author%3AParagEkbote)
 
-2) [huggingface/diffusers](https://github.com/huggingface/diffusers):
+---
 
-![alt text](image-2.png){: width="10%" height="300px"}
+![HuggingFace LightEval](image-6.png){: width="40%" height="300px"}  
+### [huggingface/lighteval](https://github.com/huggingface/lighteval)  
+**PR #433:** Removed obsolete benchmark configuration properties.  
+[View Pull Request](https://github.com/huggingface/lighteval/pull/433)
 
-3) [huggingface/notebooks](https://github.com/huggingface/notebooks):
+---
 
-![alt text](image-6.png){: width="40%" height="300px"}
+## **Documentation Contributions** ✍️  
+---
 
-4) [huggingface/lighteval](https://github.com/huggingface/lighteval):
+![HuggingFace Diffusers](image.png){: width="40%" height="300px"}  
+### [huggingface/diffusers](https://github.com/huggingface/diffusers)  
+- **PR #10094, #10032, #9952, #9905:** Updated Jupyter notebook links for diffusers community pipelines.  
+- **PR #9940, #10117, #10105, #9935, #9960, #10063:** Fixed broken links, updated missing documentation, and restructured script folders.  
+[View Pull Requests](https://github.com/huggingface/diffusers/pulls?q=is%3Apr+author%3AParagEkbote)
 
-## **Documentation Contributions**
+---
 
-![alt text](image.png){: width="40%" height="300px"}
+![HuggingFace Notebooks](image-2.png){: width="10%" height="300px"}  
+### [huggingface/notebooks](https://github.com/huggingface/notebooks)  
+**PR #530:** Fixed typos and broken links in community notebooks.  
+[View Pull Request](https://github.com/huggingface/notebooks/pull/530)
 
-1) [huggingface/diffusers](https://github.com/huggingface/diffusers): Update jupyter notebook links for Diffusers community pipelines and 
-scripts [PR #10094](https://github.com/huggingface/diffusers/pull/10094), [PR #10032](https://github.com/huggingface/diffusers/pull/10032), [PR #9952](https://github.com/huggingface/diffusers/pull/9952), [PR #9905](https://github.com/huggingface/diffusers/pull/9905).
+---
 
-2) [huggingface/diffusers](https://github.com/huggingface/diffusers): Fix broken links, update missing documentation and move script folders [PR #9940](https://github.com/huggingface/diffusers/pull/9940), [PR #10117](https://github.com/huggingface/diffusers/pull/10117),[PR #10105](https://github.com/huggingface/diffusers/pull/10105), [PR #9935](https://github.com/huggingface/diffusers/pull/9935), [PR #9960](https://github.com/huggingface/diffusers/pull/9960), [PR #10063](https://github.com/huggingface/diffusers/pull/10063).
+![LLM Datasets](image-1.png){: width="40%" height="300px"}  
+### [mlabonne/llm-datasets](https://github.com/mlabonne/llm-datasets)  
+- **PR #6, #10:** Added 6 LLM datasets related to general-purpose, math, logic, and citations.  
+[View Pull Requests](https://github.com/mlabonne/llm-datasets/pulls?q=is%3Apr+author%3AParagEkbote)
 
-![alt text](image-2.png){: width="10%" height="300px"}
-
-3) [huggingface/notebooks](https://github.com/huggingface/notebooks): Fix typos and broken links [PR #530](https://github.com/huggingface/notebooks/pull/530).
-
-![alt text](image-1.png){: width="40%" height="300px"}
-
-4) [mlabonne/llm-datasets](https://github.com/mlabonne/llm-datasets): Add 6 LLM-Datasets related to general-purpose, math & logic and citation file [PR #6](https://github.com/mlabonne/llm-datasets/pull/6), [PR #10](https://github.com/mlabonne/llm-datasets/pull/10).
-
+### Want to collaborate or share insights?  
+📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/parag-ekbote/) or explore my [GitHub](https://github.com/ParagEkbote/) for more! 
