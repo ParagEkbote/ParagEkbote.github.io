@@ -1,9 +1,9 @@
 # **Home**  
-### AI Innovation | Open Source Contributor | Building with AI 
+### AI Innovation | Open Source Contributor | Building with AI 🚀
 
 ---
 
-Welcome! Here, I showcase my journey of learning, building and contributing to the ever-evolving world of **Artificial Intelligence** and **Open Source**.  
+Welcome! Here, you can view my journey of learning, building and contributing to the ever-evolving world of **Artificial Intelligence** and **Open Source**.  
 
 I believe in creating impact through **collaboration** and **innovation**.  
 
