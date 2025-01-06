@@ -49,5 +49,7 @@ I enjoy contributing to open-source projects. My aim is to ensure better perform
 - **PR #6, #10:** Added 6 LLM datasets related to general-purpose, math, logic, and citations.  
 [View Pull Requests](https://github.com/mlabonne/llm-datasets/pulls?q=is%3Apr+author%3AParagEkbote)
 
+You can view the complete commit history [here](https://github.com/pulls?q=is%3Apr+author%3AParagEkbote+archived%3Afalse+is%3Aclosed).
+
 ### Want to collaborate or share insights?  
 📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/parag-ekbote/) or explore my [GitHub](https://github.com/ParagEkbote/) for more! 

@@ -3,23 +3,12 @@
 
 ---
 
-Welcome! Here, you can view my journey of learning, building and contributing to the ever-evolving world of **Artificial Intelligence** and **Open Source**.  
+Welcome! Here, I showcase my journey of learning, building and contributing to the ever-evolving world of **Artificial Intelligence**.  
 
 I believe in creating impact through **collaboration** and **innovation**.  
 
 ---
 
-## **About Me** 
-I am always eager to collaborate on projects that allow me to apply my skills while deepening my understanding of the AI field. These experiences not only enhance my technical abilities but also provide valuable insights.
-
-I look forward to connecting with fellow AI enthusiasts, researchers and professionals to explore new opportunities and collectively advance our application of AI.  
-
-### **Technical Skills** 
- 
-- **Programming Languages:** Python, Bash, YAML  
-- **Frameworks & Libraries:** PyTorch, Git, Jupyter Notebook, Makefile
-- **Machine Learning:** Model Optimization, Fine-Tuning  
-- **Writing & Communication:** Effective Communication, Technical Writing  
 
 ---
 
