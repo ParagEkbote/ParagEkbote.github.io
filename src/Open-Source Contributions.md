@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # **Open-Source Contributions**   
 I enjoy contributing to open-source projects. My aim is to ensure better performance, usability and making technical information accessible.
 

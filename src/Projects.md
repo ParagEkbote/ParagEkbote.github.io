@@ -1,6 +1,12 @@
-# Projects  
+---
+hide:
+  - navigation
+  - toc
+---
 
-I believe that **projects are the best way to apply and deepen knowledge**. They allow me to bridge theoretical concepts with practical implementation. Each project fuels my curiosity and enhances my skills.
+# **Projects**
+
+I believe that **projects are the best way to apply and deepen knowledge**. Each project fuels my curiosity and enhances my skills.
 
 ---
 

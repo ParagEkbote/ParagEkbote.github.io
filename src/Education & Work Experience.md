@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 ## **Education** 🎓  
 
 **Bachelor of Technology in Artificial Intelligence & Data Science**  

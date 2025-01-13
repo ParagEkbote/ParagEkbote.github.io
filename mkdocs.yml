@@ -8,12 +8,8 @@ theme:
     - navigation.footer
     - toc.follow
     - navigation.top
-    - navigation.sections
-  nav:
-  - Home: index.md
-  - Education & Work Experience: Education & Work Experience.md
-  - Open Source Contributions: Open-Source Contributions.md
-  - Projects: Projects.md
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     # Dark Mode
     - scheme: slate
@@ -28,12 +24,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: teal
-      accent: blue
+      primary: blue grey
+      accent: teal
 docs_dir: "/workspaces/ParagEkbote.github.io/src"
 
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   - toc:
       permalink: true
   - pymdownx.highlight:
@@ -51,4 +49,3 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-

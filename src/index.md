@@ -1,16 +1,43 @@
+---
+hide:
+  - navigation
+  - toc
+---
 # **Home**  
-### AI Innovation | Open Source Contributor | Building with AI 🚀
 
----
+<!-- Personal Picture and Introduction -->
+<div style="
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    color: #444;
+">
+    <img 
+        src="Personal-Pic2-1.jpg" 
+        alt="Personal Pic" 
+        style="
+            width: 350px; 
+            border-radius: 50%; 
+            border: 3px solid #ddd; 
+            box-shadow: 0 4px 8px rgba(255, 99, 99, 0.2); 
+            margin-bottom: 15px;
+        ">
+    <p style="font-size: 1.2em; margin-top: 10px;">
+        Welcome! Here, I showcase my journey of learning, building, and contributing to the ever-evolving world of 
+        <strong style="color: #2d89ef;">Artificial Intelligence</strong>.
+    </p>
+</div>
 
-Welcome! Here, I showcase my journey of learning, building and contributing to the ever-evolving world of **Artificial Intelligence**.  
-
-I believe in creating impact through **collaboration** and **innovation**.  
-
----
-
-
----
+<!-- Section Title -->
+<h2 style="
+    text-align: center; 
+    font-size: 1.8em; 
+    font-weight: bold; 
+    margin-top: 30px; 
+    color: #2d89ef;
+">
+    AI Innovation | Open Source Contributor | Building with AI 
+</h2>
 
 ## **Featured Projects** 🛠️  
 Explore the intersection of my curiosity and execution:  
@@ -43,12 +70,18 @@ I enjoy contributing to leading open-source projects to improve documentation an
 
 I’m always looking forward to discuss ideas, collaborate on projects, or share insights.
 
-![alt text](image-9.png){: width="4%" height="100px"} **Email**: [Mail](mailto:paragekbote23@gmail.com)
+<!-- Email -->
+![alt text](image-9.png){: style="height: 1em; vertical-align: middle;"} **Email**: [Mail](mailto:paragekbote23@gmail.com)
 
-![alt text](image-7.png){: width="4%" height="100px"}  **LinkedIn**: [Parag Ekbote](https://www.linkedin.com/in/parag-ekbote/)  
+<!-- LinkedIn -->
+![alt text](image-7.png){: style="height: 1em; vertical-align: middle;"} **LinkedIn**: [Parag Ekbote](https://www.linkedin.com/in/parag-ekbote/)
 
-![alt text](image-8.png){: width="4%" height="100px"} **GitHub**: [Parag Ekbote](https://github.com/ParagEkbote/)  
+<!-- GitHub -->
+![alt text](image-8.png){: style="height: 1em; vertical-align: middle;"} **GitHub**: [Parag Ekbote](https://github.com/ParagEkbote/)
 
-![alt text](image-10.png){: width="4%" height="100px"} **Hugging Face**: [Parag Ekbote](https://huggingface.co/AINovice2005)
+<!-- Hugging Face -->
+![alt text](image-10.png){: style="height: 1em; vertical-align: middle;"} **Hugging Face**: [Parag Ekbote](https://huggingface.co/AINovice2005)
+
 
 ---
+
