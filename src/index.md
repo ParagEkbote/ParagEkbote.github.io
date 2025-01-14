@@ -5,27 +5,37 @@ hide:
 ---
 # **Home**  
 
-<!-- Personal Picture and Introduction -->
 <div style="
     text-align: center; 
     font-family: Arial, sans-serif; 
-    line-height: 1.6; 
-    color: #444;
+    color: #444; 
+    line-height: 1.6;
 ">
+    <!-- Personal Picture -->
     <img 
         src="Personal-Pic2-1.jpg" 
         alt="Personal Pic" 
         style="
-            width: 350px; 
-            border-radius: 50%; 
+            width: 375px; 
+            height: 375px; 
+            border-radius: 8px; 
             border: 3px solid #ddd; 
-            box-shadow: 0 4px 8px rgba(255, 99, 99, 0.2); 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
             margin-bottom: 15px;
         ">
-    <p style="font-size: 1.2em; margin-top: 10px;">
+    </img>
+
+<!-- Introduction -->
+<h3 style="
+    text-align: center; 
+    font-size: 1.4em; 
+    font-weight: bold; 
+    margin-top: 30px;
+    color:rgb(71, 137, 251);
+">
         Welcome! Here, I showcase my journey of learning, building, and contributing to the ever-evolving world of 
-        <strong style="color: #2d89ef;">Artificial Intelligence</strong>.
-    </p>
+        <strong style="color: rgb(199, 178, 18);">Artificial Intelligence</strong>.
+</h3>
 </div>
 
 <!-- Section Title -->
@@ -34,10 +44,12 @@ hide:
     font-size: 1.8em; 
     font-weight: bold; 
     margin-top: 30px; 
-    color: #2d89ef;
+    color: rgb(199, 178, 18);
 ">
     AI Innovation | Open Source Contributor | Building with AI 
 </h2>
+
+---
 
 ## **Featured Projects** 🛠️  
 Explore the intersection of my curiosity and execution:  
@@ -51,18 +63,14 @@ Learning shell scripting through real-world tasks and practical workflows.
 3️⃣ **[Applied Papers](https://github.com/ParagEkbote/applied-papers)**:  
 Re-implementation of seminal AI papers to gain fresh insights.  
 
-🎯 [View All Projects](Projects.md)
+🎯 [View All Projects](https://paragekbote.github.io/Projects/)
 
 ---
 
-## **Contributions**  
-I enjoy contributing to leading open-source projects to improve documentation and codebases.  
+## **Open-Source Contributions**  
+I enjoy contributing to open-source projects by improving documentation and codebases.
 
-- [Hugging Face Diffusers](https://github.com/huggingface/diffusers): State-of-the-art diffusion models for image, video and audio generation in PyTorch and FLAX.  
-- [Lightning-AI LitGPT](https://github.com/Lightning-AI/litgpt): 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.  
-- [LLM Datasets](https://github.com/mlabonne/llm-datasets): High-quality datasets, tools and concepts for LLM fine-tuning.  
-
-📂 [Explore My Contributions](Open-Source Contributions.md)  
+📂 [View My Contributions](https://paragekbote.github.io/Open-Source%20Contributions/)
  
 ---
 
@@ -82,6 +90,4 @@ I’m always looking forward to discuss ideas, collaborate on projects, or share
 <!-- Hugging Face -->
 ![alt text](image-10.png){: style="height: 1em; vertical-align: middle;"} **Hugging Face**: [Parag Ekbote](https://huggingface.co/AINovice2005)
 
-
 ---
-

@@ -4,58 +4,64 @@ hide:
   - toc
 ---
 
-# **Open-Source Contributions**   
-I enjoy contributing to open-source projects. My aim is to ensure better performance, usability and making technical information accessible.
+# **Open Source Contributions**
 
-## **Code Contributions** 🛠️  
----
-
-![Lightning-AI](image-5.png){: width="10%" height="300px"}  
-### [Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt)  
-**PR #1821:** Removed support for 5+ obsolete LLM models.  
-[View Pull Request](https://github.com/Lightning-AI/litgpt/pull/1821)
+<p style="font-size: 1.2em;">I have contributed to the following repositories🛠️:</p>
 
 ---
 
-![HuggingFace Notebooks](image-2.png){: width="10%" height="300px"}  
-### [huggingface/notebooks](https://github.com/huggingface/notebooks)  
-- **PR #525:** Added 15+ Jupyter notebooks for community scripts and pipelines.  
-- **PR #535, #527, #536:** Further enhancements to notebooks.  
-[View Pull Requests](https://github.com/huggingface/notebooks/pulls?q=is%3Apr+author%3AParagEkbote)
+### **[NannyML/The-Little-Book-of-ML-Metrics](https://github.com/NannyML/The-Little-Book-of-ML-Metrics/pull/174)**  
+*A comprehensive guide for understanding and implementing machine learning metrics effectively.*
 
 ---
 
-![HuggingFace LightEval](image-6.png){: width="40%" height="300px"}  
-### [huggingface/lighteval](https://github.com/huggingface/lighteval)  
-**PR #433:** Removed obsolete benchmark configuration properties.  
-[View Pull Request](https://github.com/huggingface/lighteval/pull/433)
+### **[argilla-io/distilabel](https://github.com/argilla-io/distilabel/pull/1090)**  
+*A streamlined tool for labeling, exploring, and fine-tuning data for machine learning workflows.*
 
 ---
 
-## **Documentation Contributions** ✍️  
----
-
-![HuggingFace Diffusers](image.png){: width="40%" height="300px"}  
-### [huggingface/diffusers](https://github.com/huggingface/diffusers)  
-- **PR #10094, #10032, #9952, #9905:** Updated Jupyter notebook links for diffusers community pipelines.  
-- **PR #9940, #10117, #10105, #9935, #9960, #10063:** Fixed broken links, updated missing documentation, and restructured script folders.  
-[View Pull Requests](https://github.com/huggingface/diffusers/pulls?q=is%3Apr+author%3AParagEkbote)
+### **[huggingface/notebooks](https://github.com/huggingface/notebooks/pull/548)**  
+*Community-driven notebooks offering hands-on tutorials for the Hugging Face ecosystem.*
 
 ---
 
-![HuggingFace Notebooks](image-2.png){: width="10%" height="300px"}  
-### [huggingface/notebooks](https://github.com/huggingface/notebooks)  
-**PR #530:** Fixed typos and broken links in community notebooks.  
-[View Pull Request](https://github.com/huggingface/notebooks/pull/530)
+### **[huggingface/diffusers](https://github.com/huggingface/diffusers/pull/10499)**  
+*A library for diffusion models in PyTorch, supporting a wide range of image, video, and audio generation tasks.*
 
 ---
 
-![LLM Datasets](image-1.png){: width="40%" height="300px"}  
-### [mlabonne/llm-datasets](https://github.com/mlabonne/llm-datasets)  
-- **PR #6, #10:** Added 6 LLM datasets related to general-purpose, math, logic, and citations.  
-[View Pull Requests](https://github.com/mlabonne/llm-datasets/pulls?q=is%3Apr+author%3AParagEkbote)
+### **[Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt/pull/1821)**  
+*A modular framework for training and deploying large language models with PyTorch Lightning.*
 
-You can view the complete commit history [here](https://github.com/pulls?q=is%3Apr+author%3AParagEkbote+archived%3Afalse+is%3Aclosed).
+---
 
-### Want to collaborate or share insights?  
-📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/parag-ekbote/) or explore my [GitHub](https://github.com/ParagEkbote/) for more! 
+### **[cfahlgren1/observers](https://github.com/cfahlgren1/observers/pull/55)**  
+*A utility-focused repository aimed at improving workflows for observers in data pipelines.*
+
+---
+
+### **[huggingface/notebooks](https://github.com/huggingface/notebooks/pull/540)**  
+*Collaborative learning notebooks offering examples, tutorials, and guides for Hugging Face tools.*
+
+---
+
+### **[skorch-dev/skorch](https://github.com/skorch-dev/skorch/pull/1074)**  
+*A scikit-learn-compatible neural network library built on PyTorch for seamless integration with machine learning workflows.*
+
+---
+
+### **[mlabonne/llm-datasets](https://github.com/mlabonne/llm-datasets/pull/10)**  
+*A repository for curating and managing high-quality datasets for training and fine-tuning large language models.*
+
+---
+
+### **[huggingface/lighteval](https://github.com/huggingface/lighteval/pull/433)**  
+*A lightweight evaluation library for assessing the performance of models and datasets.*
+
+---
+
+### **[View All PRs](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc)**🚀 
+
+
+## **Want to Collaborate or Share Insights?**  
+📫 Feel free to connect via [LinkedIn](https://www.linkedin.com/in/parag-ekbote/) or explore my [GitHub](https://github.com/ParagEkbote/) for more projects and contributions!
