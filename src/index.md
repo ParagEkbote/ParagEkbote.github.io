@@ -32,10 +32,10 @@ hide:
     font-size: 1.4em; 
     font-weight: bold; 
     margin-top: 30px;
-    color:rgb(71, 137, 251);
+    color:rgb(255, 87, 51);
 ">
         Welcome! Here, I showcase my journey of learning, building, and contributing to the ever-evolving world of 
-        <strong style="color: rgb(199, 178, 18);">Artificial Intelligence</strong>.
+        <strong style="color: rgb(57, 255, 20);">Artificial Intelligence</strong>.
 </h3>
 </div>
 
@@ -45,9 +45,9 @@ hide:
     font-size: 1.8em; 
     font-weight: bold; 
     margin-top: 30px; 
-    color: rgb(199, 178, 18);
+    color: rgb(50, 47, 226);
 ">
-    AI Innovation | Open Source Contributor | Building with AI 
+    AI Innovation | Open-Source Contributor | Building with AI 
 </h2>
 
 ---
