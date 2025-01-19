@@ -3,7 +3,8 @@ hide:
   - navigation
   - toc
 ---
-# **Home**  
+
+# **Home** 🏠
 
 <div style="
     text-align: center; 
@@ -51,7 +52,7 @@ hide:
 
 ---
 
-## **Featured Projects** 🛠️  
+## **Featured Projects** 
 Explore the intersection of my curiosity and execution:  
 
 1️⃣ **[SLM Experiments](https://github.com/ParagEkbote/slm-experiments)**:  
@@ -67,7 +68,7 @@ Re-implementation of seminal AI papers to gain fresh insights.
 
 ---
 
-## **Open-Source Contributions**  
+## **Open-Source Contributions**🛠️ 
 I enjoy contributing to open-source projects by improving documentation and codebases.
 
 📂 [View My Contributions](https://paragekbote.github.io/Open-Source%20Contributions/)

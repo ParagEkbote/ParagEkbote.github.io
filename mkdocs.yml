@@ -1,9 +1,9 @@
-site_name: "Parag Ekbote"
-site_description: "Personal Website "
+site_name: "Personal Website🌐"
+site_description: "Portfolio Site"
 theme:
   name: "material"
   font:
-    text: Open Sans
+    text: Oxygen Mono
   features:
     - navigation.footer
     - toc.follow
@@ -14,16 +14,16 @@ theme:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
+        icon: material/weather-night
+        name: Light mode
       primary: brown
       accent: light blue
 
     # Light Mode
     - scheme: default
       toggle:
-        icon: material/weather-night
-        name: Light mode
+        icon: material/brightness-4
+        name: Dark mode
       primary: blue grey
       accent: teal
 docs_dir: "/workspaces/ParagEkbote.github.io/src"

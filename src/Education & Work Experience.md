@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-## **Education** 🎓  
+# **Education🎓 & Work Experience💼**   
 
 **Bachelor of Technology in Artificial Intelligence & Data Science**  
 ![Dr. D.Y. Patil Vidyapeeth](image-4.png){: width="20%" height="300px"}  
@@ -13,7 +13,7 @@ hide:
 
 ---
 
-## **Work Experience** 💼  
+## **Work Experience** 
 
 ![GreenPepper](image-3.png){: width="35%" height="300px"}  
 
@@ -29,7 +29,7 @@ hide:
 
 ---
 
-## **Courses & Certifications** 📜  
+## **Courses** 📜  
  
 - **Taking Python to Production: A Professional Onboarding Guide**   
 - **Agile Fundamentals: Including Scrum & Kanban** 

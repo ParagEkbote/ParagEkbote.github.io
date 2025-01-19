@@ -4,13 +4,11 @@ hide:
   - toc
 ---
 
-# **Projects**
+# **Projects🏗️**
 
 I believe that **projects are the best way to apply and deepen knowledge**. Each project fuels my curiosity and enhances my skills.
 
 ---
-
-## **Active Projects** 🛠️  
 
 ### 1️⃣ [Bash Mastery](https://github.com/ParagEkbote/bash-mastery)  
  *"Mastering the command line, one script at a time."*  

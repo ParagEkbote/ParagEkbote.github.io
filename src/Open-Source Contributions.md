@@ -4,9 +4,10 @@ hide:
   - toc
 ---
 
-# **Open Source Contributions**
+# **Open-Source Contributions**🛠️
 
-<p style="font-size: 1.2em;">I have contributed to the following repositories🛠️:</p>
+<p style="font-size: 1.2em;">
+I am passionate about open-source contributions and below is the list of projects I have contributed towards:</p>
 
 ---
 
