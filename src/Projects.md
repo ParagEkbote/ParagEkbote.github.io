@@ -32,9 +32,11 @@ Re-implementing groundbreaking research papers to uncover new perspectives.
 - 🧠 Dive into topics like model architectures, optimization techniques, and experimental setups.  
 - 📜 Gain deeper insights by analyzing reproducibility and extending existing findings.
 
-
-
 ---
+
+### **Helpful Resources**
+
+> [Emergent Mind](https://www.emergentmind.com/): Discover and learn about the latest research in LLMs, agents, robotics, and more. 
 
 ### Want to collaborate or share insights?  
 📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/parag-ekbote/) or explore my [GitHub](https://github.com/ParagEkbote/) for more!  
