@@ -13,13 +13,13 @@ hide:
     line-height: 1.6;
 ">
     <!-- Personal Picture -->
-<img 
+<img
+    fetchpriority="high" 
     src="assets/Personal_Pic.webp" 
     alt="Personal Pic" 
     width="350" 
     height="350" 
-    style="border-radius: 8px; border: 3px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 15px;"
-    loading="lazy">
+    style="border-radius: 8px; border: 3px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 15px;">
 <!-- Introduction -->
 <h3 style="
     text-align: center; 

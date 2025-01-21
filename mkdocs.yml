@@ -3,7 +3,7 @@ site_description: "Portfolio Site"
 theme:
   name: "material"
   font:
-    text: Oxygen Mono
+    text: Hack
   features:
     - navigation.footer
     - toc.follow

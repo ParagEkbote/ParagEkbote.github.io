@@ -7,7 +7,8 @@ hide:
 # **Education🎓 & Work Experience💼**   
 
 **Bachelor of Technology in Artificial Intelligence & Data Science**  
-<img 
+<img
+    fetchpriority="high" 
     src="/assets/image-4.webp" 
     alt="Personal Pic" 
     width="200" 
