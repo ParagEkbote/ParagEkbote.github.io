@@ -29,6 +29,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Set up Git
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main -- ./site || echo "Changes detected in './site'."
+      - name: Skip Deployment if No Changes
+        id: check_changes
+        run: |
+          if git diff --exit-code origin/main -- ./site; then
+            echo "No changes detected in './site'. Skipping deployment."
+            echo "should_skip=true" >> $GITHUB_ENV
+          else
+            echo "Changes detected. Proceeding with deployment."
+            echo "should_skip=false" >> $GITHUB_ENV
+          fi
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
@@ -36,7 +52,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Upload the site
           path: './site'
       - name: Deploy to GitHub Pages
         id: deployment

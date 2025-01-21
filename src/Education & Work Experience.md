@@ -7,15 +7,25 @@ hide:
 # **Education🎓 & Work Experience💼**   
 
 **Bachelor of Technology in Artificial Intelligence & Data Science**  
-![Dr. D.Y. Patil Vidyapeeth](image-4.png){: width="20%" height="300px"}  
+<img 
+    src="/assets/image-4.webp" 
+    alt="Personal Pic" 
+    width="200" 
+    height="200" 
+    loading="lazy">
+
 **Dr. D.Y. Patil Vidyapeeth** — *Pune, India*  
 *(2023 – 2027)*  
 
 ---
 
 ## **Work Experience** 
-
-![GreenPepper](image-3.png){: width="35%" height="300px"}  
+<img 
+    src="/assets/image-3.webp" 
+    alt="Company Logo" 
+    width="200" 
+    height="200" 
+    loading="lazy">
 
 **AI Research Intern** — *GreenPepper*  
 *(Feb 2024 – Dec 2024)*  
