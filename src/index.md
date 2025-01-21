@@ -12,37 +12,42 @@ hide:
     color: rgba(5, 12, 4, 0.88); 
     line-height: 1.6;
 ">
+
     <!-- Personal Picture -->
 <img
     fetchpriority="high" 
     src="assets/Personal_Pic.webp" 
     alt="Personal Pic" 
-    width="350" 
-    height="350" 
+    width="450" 
+    height="450" 
     style="border-radius: 8px; border: 3px solid #ddd; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 15px;">
-<!-- Introduction -->
-<h3 style="
-    text-align: center; 
-    font-size: 1.4em; 
-    font-weight: bold; 
-    margin-top: 30px;
-    color:rgb(255, 87, 51);
-">
-        Welcome! Here, I showcase my journey of learning, building, and contributing to the ever-evolving world of 
-        <strong style="color: rgb(57, 255, 20);">Artificial Intelligence</strong>.
-</h3>
-</div>
 
 <!-- Section Title -->
 <h2 style="
     text-align: center; 
     font-size: 1.8em; 
     font-weight: bold; 
-    margin-top: 30px; 
-    color: rgb(50, 47, 226);
+    margin-top: 30px;
+    color:  #072A6C; 
 ">
     AI Innovation | Open-Source Contributor | Building with AI 
-</h2>
+
+
+
+<!-- Introduction -->
+<h3 style="
+    text-align: center; 
+    font-size: 1.4em; 
+    font-weight: bold; 
+    margin-top: 30px;
+    color: #E7DBCC;
+">
+        Welcome! Here, I showcase my journey of learning, building, and contributing to the ever-evolving world of 
+        <strong style>Artificial Intelligence</strong>.
+</h3>
+</div>
+
+
 
 ---
 

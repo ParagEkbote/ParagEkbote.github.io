@@ -16,7 +16,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: brown
+      primary: light blue
       accent: light blue
 
     # Light Mode
@@ -24,7 +24,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Dark mode
-      primary: blue grey
+      primary: teal
       accent: teal
 docs_dir: "/workspaces/ParagEkbote.github.io/src"
 
