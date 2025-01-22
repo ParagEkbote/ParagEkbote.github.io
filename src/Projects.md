@@ -34,9 +34,5 @@ Re-implementing groundbreaking research papers to uncover new perspectives.
 
 ---
 
-### **Helpful Resources**
-
-> [Emergent Mind](https://www.emergentmind.com/): Discover and learn about the latest research in LLMs, agents, robotics, and more. 
-
 ### Want to collaborate or share insights?  
 📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/parag-ekbote/) or explore my [GitHub](https://github.com/ParagEkbote/) for more!  
