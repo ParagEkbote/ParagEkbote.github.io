@@ -56,6 +56,13 @@ I am passionate about open-source contributions and below is the list of project
 
 ---
 
+---
+
+### **[linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel)**  
+*Efficient Triton Kernels for LLM Training*
+
+---
+
 ### **[View All PRs](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc)**🚀 
 
 
