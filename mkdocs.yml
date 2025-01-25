@@ -11,20 +11,19 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
   palette:
+      # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: white
+      accent: indigo
     # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: Dark mode
       primary: black
-      accent: indigo
-
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-4
-        name: Light mode
-      primary: white
       accent: indigo
 docs_dir: "/workspaces/ParagEkbote.github.io/src"
 
