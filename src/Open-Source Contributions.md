@@ -7,8 +7,9 @@ hide:
 # **Open-Source Contributions**🛠️
 
 <p style="font-size: 1.2em;">
-I am passionate about open-source contributions and below is the list of projects I have contributed towards:</p>
+I am passionate about open-source contributions and below is the list of projects I have contributed:</p>
 
+## **[View All PRs](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc)**🚀 
 ---
 
 ### **[NannyML/The-Little-Book-of-ML-Metrics](https://github.com/NannyML/The-Little-Book-of-ML-Metrics)**  
@@ -63,5 +64,4 @@ I am passionate about open-source contributions and below is the list of project
 
 ---
 
-### **[View All PRs](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc)**🚀 
 
