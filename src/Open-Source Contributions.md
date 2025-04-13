@@ -4,64 +4,21 @@ hide:
   - toc
 ---
 
-# **Open-Source Contributions**🛠️
+# **Open-Source Contributions** 🛠️
 
-<p style="font-size: 1.2em;">
-I am passionate about open-source contributions and below is the list of projects I have contributed:</p>
 
-## **[View All PRs](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc)**🚀 
----
+With over 50+ pull requests across a diverse set of open-source projects—ranging from core machine learning libraries to cutting-edge AI frameworks. My contributions include adding new features, creating helpful examples, and refining docs to make tools more accessible for developers and teams.
 
-### **[NannyML/The-Little-Book-of-ML-Metrics](https://github.com/NannyML/The-Little-Book-of-ML-Metrics)**  
-*The book every data scientist needs on their desk.*
+## 👉 [View All Contributions on GitHub](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc) 
 
 ---
 
-### **[argilla-io/distilabel](https://github.com/argilla-io/distilabel)**  
-*Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers.*
+### ✨ Featured Projects
+Want to explore some of the repositories I’ve contributed to? Here are a few highlights:
+
+- [Notebooks](https://github.com/huggingface/notebooks) 🤗  
+- [Diffusers](https://github.com/huggingface/diffusers) 🤗
+- [skorch](https://github.com/skorch-dev/skorch)  
+- [optuna-examples](https://github.com/argilla-io/distilabel)
 
 ---
-
-### **[huggingface/notebooks](https://github.com/huggingface/notebooks)**  
-*Notebooks using the Hugging Face libraries 🤗*
-
----
-
-### **[huggingface/diffusers](https://github.com/huggingface/diffusers)**  
-*State-of-the-art diffusion models for image, video, and audio generation in PyTorch and FLAX.*
-
----
-
-### **[Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt)**  
-*20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.*
-
----
-
-### **[cfahlgren1/observers](https://github.com/cfahlgren1/observers)**  
-*A Lightweight Library for AI Observability.*
-
----
-
-### **[skorch-dev/skorch](https://github.com/skorch-dev/skorch)**  
-*A scikit-learn-compatible neural network library built on PyTorch for seamless integration with machine learning workflows.*
-
----
-
-### **[mlabonne/llm-datasets](https://github.com/mlabonne/llm-datasets)**  
-*Curated list of datasets and tools for post-training.*
-
----
-
-### **[huggingface/lighteval](https://github.com/huggingface/lighteval)**  
-*Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends.*
-
----
-
----
-
-### **[linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel)**  
-*Efficient Triton Kernels for LLM Training*
-
----
-
-
