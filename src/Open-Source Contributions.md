@@ -10,6 +10,7 @@ hide:
 With over 50+ pull requests across a diverse set of open-source projects—ranging from core machine learning libraries to cutting-edge AI frameworks. My contributions include adding new features, creating helpful examples, and refining docs to make tools more accessible for developers and teams.
 
 ## 👉 [View All Contributions on GitHub](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc) 
+## 👉 [Merged PRs in the PyTorch repo (auto labeled)](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3AParagEkbote+is%3Aclosed+label%3AMerged)
 
 ---
 
