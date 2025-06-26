@@ -1,0 +1,78 @@
+# 💼 External Contributions
+
+These are merged pull requests by [ParagEkbote](https://github.com/ParagEkbote) to projects **outside** of his own repositories.
+
+- [Add pyproject.toml to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108) — `skorch-dev/skorch`
+- [Typo Fixes-3](https://github.com/huggingface/notebooks/pull/598) — `huggingface/notebooks`
+- [[Nit] Add Note on SigOpt being in Public Archive Mode](https://github.com/huggingface/transformers/pull/38610) — `huggingface/transformers`
+- [Update the example list in the ReadME](https://github.com/optuna/optuna-integration/pull/234) — `optuna/optuna-integration`
+- [Add Example for Skorch DataLoader](https://github.com/skorch-dev/skorch/pull/1105) — `skorch-dev/skorch`
+- [[Fix] Only use the default path for the Doc Site](https://github.com/linkedin/Liger-Kernel/pull/727) — `linkedin/Liger-Kernel`
+- [Update ReadMe and make the Documentation Deployment more robust](https://github.com/linkedin/Liger-Kernel/pull/726) — `linkedin/Liger-Kernel`
+- [[Fix] Deploy the Mkdocs site to github pages](https://github.com/linkedin/Liger-Kernel/pull/724) — `linkedin/Liger-Kernel`
+- [Add the first article on virtual environment in Python](https://github.com/code-butter/blog/pull/1) — `code-butter/blog`
+- [Update Model Card for Mamba-2](https://github.com/huggingface/transformers/pull/37951) — `huggingface/transformers`
+- [[train_text_to_image_sdxl]Add LANCZOS as default interpolation mode for image resizing](https://github.com/huggingface/diffusers/pull/11455) — `huggingface/diffusers`
+- [Update Model Card for Mamba](https://github.com/huggingface/transformers/pull/37863) — `huggingface/transformers`
+- [Add SHAP Example ](https://github.com/optuna/optuna-integration/pull/227) — `optuna/optuna-integration`
+- [Add Pycma Example](https://github.com/optuna/optuna-integration/pull/226) — `optuna/optuna-integration`
+- [Add a transformers example](https://github.com/optuna/optuna-examples/pull/322) — `optuna/optuna-examples`
+- [Document Behavior of `optuna.pruners.MedianPruner` and `optuna.pruners.PatientPruner` ](https://github.com/optuna/optuna/pull/6055) — `optuna/optuna`
+- [Update Type-Checking for `optuna/_gp/gp.py`](https://github.com/optuna/optuna/pull/6053) — `optuna/optuna`
+- [Setup Pre-Commit](https://github.com/optuna/optuna-examples/pull/316) — `optuna/optuna-examples`
+- [Update Type-Checking for `optuna/_deprecated.py`](https://github.com/optuna/optuna/pull/6051) — `optuna/optuna`
+- [Update Type-Checking for `optuna/_convert_positional_args.py`](https://github.com/optuna/optuna/pull/6050) — `optuna/optuna`
+- [Update Type-Checking for `optuna/importance/_base.py`](https://github.com/optuna/optuna/pull/6046) — `optuna/optuna`
+- [Update Type-Checking for `optuna/_experimental.py`](https://github.com/optuna/optuna/pull/6045) — `optuna/optuna`
+- [Update PyTorch Checkpoint Example using tempfile](https://github.com/optuna/optuna-examples/pull/313) — `optuna/optuna-examples`
+- [Fix fastai Example](https://github.com/optuna/optuna-examples/pull/312) — `optuna/optuna-examples`
+- [Update Model Card for Jamba](https://github.com/huggingface/transformers/pull/37152) — `huggingface/transformers`
+- [Update Model Card for ModernBERT](https://github.com/huggingface/transformers/pull/37052) — `huggingface/transformers`
+- [Notebooks for Community Scripts-8](https://github.com/huggingface/diffusers/pull/11128) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-8](https://github.com/huggingface/notebooks/pull/559) — `huggingface/notebooks`
+- [Add Example for Comet](https://github.com/optuna/optuna-examples/pull/305) — `optuna/optuna-examples`
+- [Fix Skorch Example](https://github.com/optuna/optuna-examples/pull/303) — `optuna/optuna-examples`
+- [Nit Fix in LR Scheduler Notebook](https://github.com/skorch-dev/skorch/pull/1099) — `skorch-dev/skorch`
+- [Add Optuna Example for Skorch](https://github.com/skorch-dev/skorch/pull/1098) — `skorch-dev/skorch`
+- [Add Example of IPAdapterScaleCutoffCallback to Docs](https://github.com/huggingface/diffusers/pull/10934) — `huggingface/diffusers`
+- [Add Contributing Guidelines](https://github.com/skorch-dev/skorch/pull/1097) — `skorch-dev/skorch`
+- [Notebooks for Community Scripts-7](https://github.com/huggingface/diffusers/pull/10846) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-7](https://github.com/huggingface/notebooks/pull/554) — `huggingface/notebooks`
+- [Extend Support for callback_on_step_end for AuraFlow and LuminaText2Img Pipelines](https://github.com/huggingface/diffusers/pull/10746) — `huggingface/diffusers`
+- [Notebooks for Community Scripts-6](https://github.com/huggingface/diffusers/pull/10713) — `huggingface/diffusers`
+- [📖 Clarification max len in Reward documentation](https://github.com/huggingface/trl/pull/2740) — `huggingface/trl`
+- [Fix Documentation about Image-to-Image Pipeline](https://github.com/huggingface/diffusers/pull/10704) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-6](https://github.com/huggingface/notebooks/pull/551) — `huggingface/notebooks`
+- [📖 Nit Fix in Documentation](https://github.com/huggingface/trl/pull/2722) — `huggingface/trl`
+- [Fix Broken Links](https://github.com/linkedin/Liger-Kernel/pull/547) — `linkedin/Liger-Kernel`
+- [Improve Hugging Face SFT Script](https://github.com/linkedin/Liger-Kernel/pull/539) — `linkedin/Liger-Kernel`
+- [Add General Notation of Jaccard Index Formula](https://github.com/NannyML/The-Little-Book-of-ML-Metrics/pull/174) — `NannyML/The-Little-Book-of-ML-Metrics`
+- [Notebooks for Community Scripts-5](https://github.com/huggingface/diffusers/pull/10499) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-5](https://github.com/huggingface/notebooks/pull/548) — `huggingface/notebooks`
+- [Add Legend to Component Gallery Icons](https://github.com/argilla-io/distilabel/pull/1090) — `argilla-io/distilabel`
+- [Fix Typos-2](https://github.com/huggingface/notebooks/pull/540) — `huggingface/notebooks`
+- [Create Docs for Liger-Kernel](https://github.com/linkedin/Liger-Kernel/pull/485) — `linkedin/Liger-Kernel`
+- [Setup Docs](https://github.com/cfahlgren1/observers/pull/55) — `cfahlgren1/observers`
+- [Create CITATION.cff](https://github.com/mlabonne/llm-datasets/pull/10) — `mlabonne/llm-datasets`
+- [Fix Warnings in Docker Compose](https://github.com/huggingface/dataset-viewer/pull/3120) — `huggingface/dataset-viewer`
+- [Deprecate Obsolete Config Properties](https://github.com/huggingface/lighteval/pull/433) — `huggingface/lighteval`
+- [Fix Broken Links in ReadMe](https://github.com/huggingface/diffusers/pull/10117) — `huggingface/diffusers`
+- [Fix Broken Link in Optimization Docs](https://github.com/huggingface/diffusers/pull/10105) — `huggingface/diffusers`
+- [Notebooks for Community Scripts-4](https://github.com/huggingface/diffusers/pull/10094) — `huggingface/diffusers`
+- [Fixed Nits in Evaluation Docs ](https://github.com/huggingface/diffusers/pull/10063) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-4](https://github.com/huggingface/notebooks/pull/536) — `huggingface/notebooks`
+- [Notebook for Learning Rate Scheduler](https://github.com/skorch-dev/skorch/pull/1074) — `skorch-dev/skorch`
+- [Notebooks for Community Scripts-3](https://github.com/huggingface/diffusers/pull/10032) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-3](https://github.com/huggingface/notebooks/pull/535) — `huggingface/notebooks`
+- [Typo Fixes](https://github.com/huggingface/notebooks/pull/530) — `huggingface/notebooks`
+- [Move IP Adapter Scripts to research project](https://github.com/huggingface/diffusers/pull/9960) — `huggingface/diffusers`
+- [Notebooks for Community Scripts-2](https://github.com/huggingface/diffusers/pull/9952) — `huggingface/diffusers`
+- [Fixed Nits in Docs and Example Script](https://github.com/huggingface/diffusers/pull/9940) — `huggingface/diffusers`
+- [Notebooks for Diffuser Community Scripts-2](https://github.com/huggingface/notebooks/pull/527) — `huggingface/notebooks`
+- [Move Wuerstchen Dreambooth to research_projects](https://github.com/huggingface/diffusers/pull/9935) — `huggingface/diffusers`
+- [Diffuser Notebooks for Community Scripts](https://github.com/huggingface/notebooks/pull/525) — `huggingface/notebooks`
+- [ Notebooks for Community Scripts Examples](https://github.com/huggingface/diffusers/pull/9905) — `huggingface/diffusers`
+- [Deprecate Support for Dolly, Nous-Hermes, Redpajama-Incite, Vicuna and H2O Danube Models.](https://github.com/Lightning-AI/litgpt/pull/1821) — `Lightning-AI/litgpt`
+- [Update README.md](https://github.com/mlabonne/llm-datasets/pull/6) — `mlabonne/llm-datasets`
+- [Add a Additional Example that showcases the usage of `torch.autograd.functional.jacobian`](https://github.com/pytorch/pytorch/pull/155683) — `pytorch/pytorch`
+- [Document the default garbage_collection_threshold value and improve the organization of cuda docs](https://github.com/pytorch/pytorch/pull/155341) — `pytorch/pytorch`

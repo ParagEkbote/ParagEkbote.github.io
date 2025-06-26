@@ -4,22 +4,24 @@ hide:
   - toc
 ---
 
-# **Open-Source Contributions** 🛠️
+# **Open-Source Contributions🛠️**
 
-
-With over 50+ pull requests across a diverse set of open-source projects—ranging from core machine learning libraries to cutting-edge AI frameworks. My contributions include adding new features, creating helpful examples, and refining docs to make tools more accessible for developers and teams.
-
-## 👉 [View All Contributions on GitHub](https://github.com/search?q=author%3AParagEkbote+is%3Apr+is%3Amerged&sort=updated&order=desc) 
-## 👉 [Merged PRs in the PyTorch repo (auto labeled)](https://github.com/pytorch/pytorch/pulls?q=is%3Apr+author%3AParagEkbote+is%3Aclosed+label%3AMerged)
+Over 70+ pull requests across diverse open-source projects like PyTorch, Optuna, Skorch, Diffusers and more.
 
 ---
 
-### ✨ Featured Projects
-Want to explore some of the repositories I’ve contributed to? Here are a few highlights:
+## 🌟 Notable Contributions
 
-- [Notebooks](https://github.com/huggingface/notebooks) 🤗  
-- [Diffusers](https://github.com/huggingface/diffusers) 🤗
-- [skorch](https://github.com/skorch-dev/skorch)  
-- [optuna-examples](https://github.com/argilla-io/distilabel)
+- **[Integrate `pyproject.toml` to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108)**  
+  Migrated to `pyproject.toml` for better tooling and CI/CD support.
+
+- **[Add Example of `IPAdapterScaleCutoffCallback` to Docs](https://github.com/huggingface/diffusers/pull/10934)**  
+  Added a usage example for advanced inference callback.
+
+- **[Optuna + Transformers Example](https://github.com/optuna/optuna-examples/pull/322)**  
+  Demonstrated hyperparameter tuning with Hugging Face models.
+
+- **[Extend `callback_on_step_end` Support in Pipelines](https://github.com/optuna/optuna-examples/pull/322)**  
+  Enabled step-level callbacks in diffuser image generation pipelines.
 
 ---
