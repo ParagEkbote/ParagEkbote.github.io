@@ -30,7 +30,7 @@ hide:
     margin-top: 30px;
     color:  #716969; 
 ">
-    AI Innovation | Open-Source Contributor | Building with AI 
+    ML & Data Science Engineer | Python | Research → Production Deployment | 1 year supporting tech startups | Passionate OSS Contributor
 
 
 
@@ -42,25 +42,33 @@ hide:
     margin-top: 30px;
     color: #716969;
 ">
-        Welcome! Here, I showcase my journey of learning, building, and contributing to the ever-evolving world of 
+        Welcome! Here, I showcase my journey of building and contributing to the ever-evolving world of 
         <strong style>Artificial Intelligence</strong>.
 </h2>
 </div>
 
 <center>
-Want to Connect? 🤝 
 
-[![Gmail Icon](/assets/icons8-gmail-144.png)](mailto:paragekbote23@gmail.com)
-(https://www.linkedin.com/in/parag-ekbote/)
-(https://github.com/ParagEkbote)
-(https://huggingface.co/AINovice2005)
+<div style="text-align: center;">
+  <!-- Gmail -->
+  <a href="mailto:paragekbote23@gmail.com">
+    <img src="assets/icons8-gmail-144.webp" alt="Gmail Icon">
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/parag-ekbote/">
+    <img src="assets/icons8-linkedin-144.webp" alt="LinkedIn Icon">
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/ParagEkbote">
+    <img src="assets/icons8-github-144.webp" alt="GitHub Icon">
+  </a>
+
+  <!-- Hugging Face -->
+  <a href="https://huggingface.co/AINovice2005">
+    <img src="assets/icons8-hugging-face-144.webp" alt="Hugging Face Icon">
+  </a>
+</div>
+
 </center>
----
----
-
-## **Open-Source Contributions**🛠️ 
-I enjoy contributing to open-source projects by improving documentation and codebases.
-
-📂 [View My Contributions](https://paragekbote.github.io/Open-Source%20Contributions/)
- 
-
