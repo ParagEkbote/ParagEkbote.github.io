@@ -50,7 +50,7 @@ hide:
 <center>
 Want to Connect? 🤝 
 
-[![Gmail Icon](src/assets/icons8-gmail-144.png)](mailto:paragekbote23@gmail.com)
+[![Gmail Icon](/assets/icons8-gmail-144.png)](mailto:paragekbote23@gmail.com)
 (https://www.linkedin.com/in/parag-ekbote/)
 (https://github.com/ParagEkbote)
 (https://huggingface.co/AINovice2005)
