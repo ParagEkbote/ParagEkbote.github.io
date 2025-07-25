@@ -71,4 +71,10 @@ hide:
   </a>
 </div>
 
+  <!-- Docker -->
+  <a href="https://hub.docker.com/u/paragekbote">
+    <img src="assets/icons8-docker-240.webp" alt="Hugging Face Icon">
+  </a>
+</div>
+
 </center>
