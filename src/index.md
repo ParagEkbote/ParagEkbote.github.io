@@ -69,11 +69,10 @@ hide:
   <a href="https://huggingface.co/AINovice2005">
     <img src="assets/icons8-hugging-face-144.webp" alt="Hugging Face Icon">
   </a>
-</div>
 
   <!-- Docker -->
   <a href="https://hub.docker.com/u/paragekbote">
-    <img src="assets/icons8-docker-240.webp" alt="Hugging Face Icon">
+    <img src="assets/icons8-docker-144.webp"  alt="Docker Icon">
   </a>
 </div>
 
