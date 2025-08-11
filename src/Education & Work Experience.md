@@ -6,6 +6,8 @@ hide:
 
 # **Education🎓 & Work Experience💼**   
 
+## **Education**
+
 **Bachelor of Technology in Artificial Intelligence & Data Science**  
 <img
     fetchpriority="high" 
@@ -33,20 +35,11 @@ hide:
 
 **Key Contributions:**  
 
-- Authored over five narrative reports that effectively explained business trends in Generative AI to stakeholders.
-- Conducted comprehensive analyses of research papers, business reports and scholarly articles, extracting valuable insights to lead decision-making.
-- Led the development of “The Generative AI Stack”, producing a detailed, 20+ page guide designed to drive innovation in business usecases.
-- Actively participated in the GenAI Sprint, focusing on researching AI applications in the medical domain. 
+- Authored over five comprehensive narrative reports that effectively communicated complex business trends in Generative AI to key stakeholders, facilitating informed strategic decision-making
+- Conducted thorough analyses of research papers, industry reports, and scholarly articles, extracting actionable insights to guide organizational strategy and innovation initiatives
+- Led the development of "The Generative AI Stack", producing a detailed 20+ page technical guide designed to accelerate innovation in business applications and use cases
+- Actively participated in the GenAI Sprint initiative, specializing in research of AI applications within the medical domain, contributing to breakthrough insights in healthcare technology
+
+**Skills Developed:** Research analysis, technical writing, stakeholder communication, AI development, consulting
 
 ---
-
-## **Courses** 📜  
- 
-- **Taking Python to Production: A Professional Onboarding Guide**   
-- **Agile Fundamentals: Including Scrum & Kanban** 
-- **Software Architecture & Design of Modern Large-Scale Systems**  
-- **Understanding Quantum Computing**
-- **Git and GitHub**
----
-
-
