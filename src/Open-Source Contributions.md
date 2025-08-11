@@ -28,8 +28,8 @@ My philosophy towards open source is rooted in **giving back to the community** 
 * **[Notebooks for Diffuser Community Scripts](https://github.com/huggingface/notebooks/pull/559)**
   Contributed notebooks showcasing community scripts for streamlined diffusion model usage.
 
-* **[Add an example using Optuna and Transformers](https://github.com/huggingface/cookbook/pull/304)**
-  Demonstrated hyperparameter tuning of Transformer models with Optuna in the Hugging Face Cookbook.
+* **[Add an example using Optuna and Transformers](https://github.com/optuna/optuna-examples/pull/322)**
+  Demonstrated hyperparameter tuning of Transformer models with Optuna in the Optuna Examples Repo.
 
 * **[Integrate `pyproject.toml` to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108)**
   Migrated Skorch to `pyproject.toml` for enhanced tooling compatibility and streamlined CI/CD processes.
