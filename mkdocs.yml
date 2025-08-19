@@ -3,7 +3,7 @@ site_description: "Portfolio Site"
 theme:
   name: "material"
   font:
-    text: Hack
+    text: Raleway
   features:
     - navigation.footer
     - toc.follow
