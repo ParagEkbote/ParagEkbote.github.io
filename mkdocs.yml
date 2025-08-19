@@ -27,6 +27,12 @@ theme:
       accent: indigo
 docs_dir: "/workspaces/ParagEkbote.github.io/src"
 
+extra:
+  social:
+    - icon: simple/icons8
+      link: https://icons8.com/icons
+      name: Icons by icons8
+
 markdown_extensions:
   - attr_list
   - md_in_html

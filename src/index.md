@@ -74,6 +74,12 @@ hide:
   <a href="https://hub.docker.com/u/paragekbote">
     <img src="assets/icons8-docker-144.webp"  alt="Docker Icon">
   </a>
+
+  <!-- Replicate -->
+  <a href="https://replicate.com/paragekbote">
+    <img src="assets/icons8-replicate-144.webp"  alt="Replicate Icon">
+  </a>
+
 </div>
 
 </center>
