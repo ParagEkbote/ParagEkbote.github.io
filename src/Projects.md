@@ -16,8 +16,7 @@ A collection of AI models quantized with torchao and Pruna to deliver faster inf
 
 - Reduced compute and memory overhead, making the models more practical for deployment in real-world applications.
 
-**Tech Stack:**  
-`PyTorch`, `torchao`, `transformers`, `diffusers`, `pruna`, `GPU acceleration`, `bitsandbytes`
+**Tech Stack:** `PyTorch`, `torchao`, `transformers`, `diffusers`, `pruna`, `GPU acceleration`, `bitsandbytes`
 
 ---
 
@@ -34,8 +33,7 @@ A collection of AI models quantized with torchao and Pruna to deliver faster inf
 - Implements 4-bit quantization for minimal RAM/GPU requirements.
 - Integrates `Flash Attention 2` and `Triton` fused kernels for high-throughput inference on modern hardware.
 
-**Tech Stack:**  
-`PyTorch`, `transformers`, `diffusers`, `Unsloth`, `LoRA`, `pruna`, `BitsAndBytes`, `Flash Attention 2`, `torch.compile`, `Docker`, `Cog`
+**Tech Stack:** `PyTorch`, `transformers`, `diffusers`, `Unsloth`, `LoRA`, `pruna`, `BitsAndBytes`, `Flash Attention 2`, `torch.compile`, `Docker`, `Cog`
 
 ### 3. [flux-fast-lora-hotswap](https://replicate.com/paragekbote/flux-fast-lora-hotswap)
 
@@ -49,5 +47,4 @@ Deployed a optimized version of `FLUX.1-dev` with ` LoRA`, a text-to-image model
 
 - **Impact**: Achieved faster inference, lower memory footprint for text-to-image generation, thereby lowering overall computational cost.
 
-**Tech Stack:**  
-`PyTorch`, `transformers`, `diffusers`, `LoRA`, `BitsAndBytes`, `torch.compile`, `Cog`
+**Tech Stack:** `PyTorch`, `transformers`, `diffusers`, `LoRA`, `BitsAndBytes`, `torch.compile`, `Cog`
