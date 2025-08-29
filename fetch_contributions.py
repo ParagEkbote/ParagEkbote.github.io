@@ -13,7 +13,7 @@ if GITHUB_TOKEN:
 # 🔍 GraphQL query for merged PRs authored by you
 GRAPHQL_QUERY = """
 {
-  search(query: "author:ParagEkbote is:pr is:merged", type: ISSUE, first: 100) {
+  search(query: "author:ParagEkbote is:pr is:merged", type: ISSUE, first: 120) {
     nodes {
       ... on PullRequest {
         title
