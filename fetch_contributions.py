@@ -29,15 +29,51 @@ GRAPHQL_QUERY = """
 
 def fetch_merged_external_prs():
     url = "https://api.github.com/graphql"
-    resp = requests.post(url, headers=HEADERS, json={"query": GRAPHQL_QUERY})
-    if resp.status_code != 200:
-        raise Exception(f"GraphQL API Error: {resp.status_code} - {resp.text}")
-    data = resp.json()
-    all_prs = data["data"]["search"]["nodes"]
+    all_prs = []
+    cursor = None
+
+    while True:
+        query = f"""
+        {{
+          search(query: "author:ParagEkbote is:pr is:merged", type: ISSUE, first: 100{f', after: "{cursor}"' if cursor else ""}) {{
+            pageInfo {{
+              hasNextPage
+              endCursor
+            }}
+            nodes {{
+              ... on PullRequest {{
+                title
+                url
+                repository {{
+                  nameWithOwner
+                }}
+              }}
+            }}
+          }}
+        }}
+        """
+        resp = requests.post(url, headers=HEADERS, json={"query": query})
+        if resp.status_code != 200:
+            raise Exception(f"GraphQL API Error: {resp.status_code} - {resp.text}")
+        
+        data = resp.json()
+        if "errors" in data:
+            raise Exception(f"GraphQL Query Error: {data['errors']}")
+
+        search = data["data"]["search"]
+        all_prs.extend(search["nodes"])
+
+        if not search["pageInfo"]["hasNextPage"]:
+            break
+
+        cursor = search["pageInfo"]["endCursor"]
+
+    # Filter out your own repos
     return [
         pr for pr in all_prs
         if not pr["repository"]["nameWithOwner"].startswith("ParagEkbote/")
     ]
+
 
 def fetch_pytorch_labeled_prs():
     url = "https://api.github.com/search/issues"
