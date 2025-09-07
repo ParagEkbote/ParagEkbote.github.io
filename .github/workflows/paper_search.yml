@@ -1,0 +1,27 @@
+name: IEEE Paper Search
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # every day at 9:00 UTC
+  workflow_dispatch:
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run IEEE search script
+        run: python search_ieee.py
+      - name: Commit CSV
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ieee_paper_search_results.csv
+          git commit -m "Update IEEE search results" || echo "No changes"
+          git push

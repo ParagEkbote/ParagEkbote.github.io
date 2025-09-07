@@ -1,48 +1,75 @@
 import requests
-from bs4 import BeautifulSoup
-import time
-import schedule
+import json
+import csv
+from datetime import datetime
+from pathlib import Path
 
-# Paper title(s) to track
+# List of paper titles to search
 PAPER_TITLES = [
-    "The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer"
+    "Comparative Study for Monocular Depth Detection Models on Embedded Systems"
 ]
 
-# IEEE Xplore search URL template
-SEARCH_URL = "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText={}"
+CSV_FILE = Path("ieee_paper_search_results.csv")
 
-def check_papers():
-    print(f"\nChecking IEEE Xplore at {time.ctime()}...\n")
+def search_ieee(title):
+    url = "https://ieeexplore.ieee.org/rest/search"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Origin": "https://ieeexplore.ieee.org",
+        "Referer": "https://ieeexplore.ieee.org/search/searchresult.jsp",
+        "Content-Type": "application/json",
+        "DNT": "1",
+        "Connection": "keep-alive",
+    }
 
-    for title in PAPER_TITLES:
-        query = title.replace(" ", "+")
-        url = SEARCH_URL.format(query)
+    payload = {
+        "queryText": title,
+        "highlight": True,
+        "returnType": "SEARCH",
+        "returnFacets": ["ALL"]
+    }
 
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    try:
+        r = requests.post(url, headers=headers, data=json.dumps(payload))
+        if r.status_code != 200:
+            print(f"Error {r.status_code} for '{title}'")
+            return {"title": title, "found": False}
+
+        data = r.json()
+        records = data.get("records", [])
+        if not records:
+            print(f"No results found for '{title}'")
+            return {"title": title, "found": False}
+
+        # Take the first match
+        record = records[0]
+        result = {
+            "title": title,
+            "found": True,
+            "matched_title": record.get("articleTitle"),
+            "doc_id": record.get("articleNumber"),
+            "doi": record.get("doi"),
+            "link": f"https://ieeexplore.ieee.org/document/{record.get('articleNumber')}"
         }
-        response = requests.get(url, headers=headers)
+        print(f"Found '{title}': {result['link']}")
+        return result
 
-        if response.status_code != 200:
-            print(f"Failed to fetch results for: {title}")
-            continue
+    except Exception as e:
+        print(f"Exception for '{title}': {e}")
+        return {"title": title, "found": False}
 
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        # IEEE Xplore search results are rendered with JS, but titles appear in <title> and meta
-        # For basic presence check, use the <title> tag
-        page_title = soup.find("title").text.strip()
-
-        if "Search Results" in page_title:
-            print(f"🔍 '{title}' not yet found.")
-        else:
-            print(f"✅ '{title}' might be available! Check manually: {url}")
-
-# Schedule the job daily at 9 AM
-schedule.every().day.at("09:00").do(check_papers)
+def save_results_to_csv(results):
+    file_exists = CSV_FILE.exists()
+    with open(CSV_FILE, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["date", "title", "found", "matched_title", "doc_id", "doi", "link"])
+        if not file_exists:
+            writer.writeheader()
+        for res in results:
+            row = {"date": datetime.now().isoformat(), **res}
+            writer.writerow(row)
 
 if __name__ == "__main__":
-    check_papers()  # Run immediately once
-    while True:
-        schedule.run_pending()
-        time.sleep(60)
+    results = [search_ieee(title) for title in PAPER_TITLES]
+    save_results_to_csv(results)
