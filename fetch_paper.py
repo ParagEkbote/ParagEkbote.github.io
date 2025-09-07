@@ -6,7 +6,7 @@ from pathlib import Path
 
 # List of paper titles to search
 PAPER_TITLES = [
-    "Comparative Study for Monocular Depth Detection Models on Embedded Systems"
+    "The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer"
 ]
 
 CSV_FILE = Path("ieee_paper_search_results.csv")
