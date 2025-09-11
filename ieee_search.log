@@ -286,3 +286,75 @@ Completed! Results saved to ieee_paper_search_results.csv
 2025-09-10 09:18:22,564 - INFO - Summary: 1/2 papers found
 2025-09-10 09:18:22,564 - INFO - ✓ FOUND: Comparative Study for Monocular Depth Detection Models on Embedded Systems
 2025-09-10 09:18:22,564 - INFO - ✗ NOT FOUND: The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer
+2025-09-11 09:17:27,980 - INFO - Starting IEEE paper search...
+2025-09-11 09:17:27,980 - INFO - Papers to search: 2
+2025-09-11 09:17:27,980 - INFO - Warming up session...
+2025-09-11 09:17:29,512 - INFO - Session warmed up, status: 200
+2025-09-11 09:17:29,513 - INFO - 
+[1/2] Processing paper...
+2025-09-11 09:17:29,513 - INFO - 
+============================================================
+2025-09-11 09:17:29,513 - INFO - Searching for: Comparative Study for Monocular Depth Detection Models on Embedded Systems
+2025-09-11 09:17:29,513 - INFO - ============================================================
+2025-09-11 09:17:29,513 - INFO - 
+Trying search variation 1/5: "Comparative Study for Monocular Depth Detection Models on Embedded Systems"
+2025-09-11 09:17:29,883 - INFO - Retrieved 1 total records for query: "Comparative Study for Monocular Depth Detection M...
+2025-09-11 09:17:29,884 - INFO - Found 1 candidates
+2025-09-11 09:17:29,884 - INFO - 
+Trying search variation 2/5: Comparative Study for Monocular Depth Detection Models on Embedded Systems
+2025-09-11 09:17:30,201 - INFO - Retrieved 1 total records for query: Comparative Study for Monocular Depth Detection Mo...
+2025-09-11 09:17:30,202 - INFO - Found 1 candidates
+2025-09-11 09:17:30,202 - INFO - 
+Trying search variation 3/5: "Comparative Study Embedded Systems"
+2025-09-11 09:17:30,402 - INFO - Retrieved 0 total records for query: "Comparative Study Embedded Systems"...
+2025-09-11 09:17:30,402 - WARNING - No results for variation: "Comparative Study Embedded Systems"
+2025-09-11 09:17:30,402 - INFO - 
+Trying search variation 4/5: "Comparative for Monocular Depth Detection Models on Embedded Systems"
+2025-09-11 09:17:30,585 - INFO - Retrieved 0 total records for query: "Comparative for Monocular Depth Detection Models ...
+2025-09-11 09:17:30,585 - WARNING - No results for variation: "Comparative for Monocular Depth Detection Models on Embedded Systems"
+2025-09-11 09:17:30,585 - INFO - 
+Trying search variation 5/5: "monocular depth detection embedded"
+2025-09-11 09:17:30,762 - INFO - Retrieved 0 total records for query: "monocular depth detection embedded"...
+2025-09-11 09:17:30,762 - WARNING - No results for variation: "monocular depth detection embedded"
+2025-09-11 09:17:30,762 - INFO - 
+Total unique candidates: 1
+2025-09-11 09:17:30,763 - INFO - Best match score: 1.000
+2025-09-11 09:17:30,763 - INFO - Best match title: Comparative Study for Monocular Depth Detection Models on Embedded Systems
+2025-09-11 09:17:41,313 - INFO - ✓ Found via fuzzy matching search only (score: 1.000)
+2025-09-11 09:17:41,313 - INFO - SUCCESS: Found paper with method 'fuzzy-match-search (threshold: 0.98)'
+2025-09-11 09:17:41,313 - INFO - Matched title: Comparative Study for Monocular Depth Detection Models on Embedded Systems
+2025-09-11 09:17:41,313 - INFO - DOC ID: 10808072
+2025-09-11 09:17:41,313 - INFO - Link: https://ieeexplore.ieee.org/document/10808072
+2025-09-11 09:17:43,315 - INFO - 
+[2/2] Processing paper...
+2025-09-11 09:17:43,315 - INFO - 
+============================================================
+2025-09-11 09:17:43,316 - INFO - Searching for: The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer
+2025-09-11 09:17:43,316 - INFO - ============================================================
+2025-09-11 09:17:43,316 - INFO - 
+Trying search variation 1/5: "The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer"
+2025-09-11 09:17:49,811 - INFO - Retrieved 0 total records for query: "The Core of Modern AI Models:A Comprehensive Revi...
+2025-09-11 09:17:49,811 - WARNING - No results for variation: "The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer"
+2025-09-11 09:17:49,811 - INFO - 
+Trying search variation 2/5: The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer
+2025-09-11 09:17:50,212 - INFO - Retrieved 0 total records for query: The Core of Modern AI Models:A Comprehensive Revie...
+2025-09-11 09:17:50,212 - WARNING - No results for variation: The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer
+2025-09-11 09:17:50,212 - INFO - 
+Trying search variation 3/5: "The Core Encoder-Decoder Transformer"
+2025-09-11 09:17:50,367 - INFO - Retrieved 0 total records for query: "The Core Encoder-Decoder Transformer"...
+2025-09-11 09:17:50,367 - WARNING - No results for variation: "The Core Encoder-Decoder Transformer"
+2025-09-11 09:17:50,367 - INFO - 
+Trying search variation 4/5: "The Core of Modern AI Models:A on Encoder-Decoder Transformer"
+2025-09-11 09:17:50,523 - INFO - Retrieved 0 total records for query: "The Core of Modern AI Models:A on Encoder-Decoder...
+2025-09-11 09:17:50,524 - WARNING - No results for variation: "The Core of Modern AI Models:A on Encoder-Decoder Transformer"
+2025-09-11 09:17:50,524 - INFO - 
+Trying search variation 5/5: "encoder decoder transformer AI"
+2025-09-11 09:17:50,674 - INFO - Retrieved 0 total records for query: "encoder decoder transformer AI"...
+2025-09-11 09:17:50,674 - WARNING - No results for variation: "encoder decoder transformer AI"
+2025-09-11 09:17:50,674 - ERROR - No candidates found with any search variation
+2025-09-11 09:17:50,674 - ERROR - FAILED: Could not find paper
+2025-09-11 09:17:50,674 - INFO - 
+Completed! Results saved to ieee_paper_search_results.csv
+2025-09-11 09:17:50,674 - INFO - Summary: 1/2 papers found
+2025-09-11 09:17:50,674 - INFO - ✓ FOUND: Comparative Study for Monocular Depth Detection Models on Embedded Systems
+2025-09-11 09:17:50,674 - INFO - ✗ NOT FOUND: The Core of Modern AI Models:A Comprehensive Review on Encoder-Decoder Transformer
