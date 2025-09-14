@@ -12,7 +12,7 @@ jobs:
   update-contributions:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  #Provided by GitHub
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provided by GitHub
 
     steps:
       - uses: actions/checkout@v5
@@ -37,3 +37,4 @@ jobs:
             git push
           else
             echo "No changes to contributions.md, skipping commit."
+          fi
