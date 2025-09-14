@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Run IEEE search script
-        run: python fetch_paper.py
+        run: python scripts/fetch_paper.py
       - name: Commit CSV
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

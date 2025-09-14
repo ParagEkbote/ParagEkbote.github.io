@@ -12,26 +12,21 @@ jobs:
   update-contributions:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  #Provided by GitHub
 
     steps:
-      # 1️⃣ Checkout repository
       - uses: actions/checkout@v5
 
-      # 2️⃣ Setup Python
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: pip install requests
 
-      # 4️⃣ Run your contributions script
       - name: Fetch contributions
-        run: python fetch_contributions.py
+        run: python scripts/fetch_contributions.py
 
-      # 5️⃣ Commit updated file if changed
       - name: Commit updated file if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
