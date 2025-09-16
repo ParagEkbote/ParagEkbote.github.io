@@ -44,3 +44,5 @@ My philosophy towards open source is rooted in **giving back to the community** 
   Optimized core dependencies to improve installation efficiency and maintainability.
 
 ---
+
+A complete list of my contributions is also available, you can **[view it here](https://github.com/ParagEkbote/ParagEkbote.github.io/blob/main/contributions.md)**.
