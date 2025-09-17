@@ -25,6 +25,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ieee_paper_search_results.csv ieee_search.log
+          git add ieee_paper_search_results.csv 
           git commit -m "Update IEEE search results" || echo "No changes"
           git push

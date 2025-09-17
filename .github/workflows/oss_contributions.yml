@@ -33,7 +33,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add contributions.md
           if ! git diff --cached --quiet; then
-            git commit -m "Update contributions.md [skip ci]"
+            git commit -m "Update contributions.md"
             git push
           else
             echo "No changes to contributions.md, skipping commit."
