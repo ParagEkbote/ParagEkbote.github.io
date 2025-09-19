@@ -2,6 +2,8 @@
 
 These are merged pull requests by [ParagEkbote](https://github.com/ParagEkbote) to projects **outside** of his own repositories.
 
+![Open Source Contributions](./src/assets/oss_img.webp)
+
 1. [Add pytest coverage for liger-kernel](https://github.com/linkedin/Liger-Kernel/pull/876) — `linkedin/Liger-Kernel`
 2. [Add Demo Link for `Fast LoRA inference for Flux with Diffusers and PEFT`](https://github.com/huggingface/blog/pull/3044) — `huggingface/blog`
 3. [Add Classifiers for Liger-Kernel](https://github.com/linkedin/Liger-Kernel/pull/869) — `linkedin/Liger-Kernel`

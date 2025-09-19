@@ -97,6 +97,7 @@ def write_markdown(prs, filename="contributions.md"):
     with open(filename, "w", encoding="utf-8") as f:
         f.write("# 💼 External Contributions\n\n")
         f.write("These are merged pull requests by [ParagEkbote](https://github.com/ParagEkbote) to projects **outside** of his own repositories.\n\n")
+        f.write("![Open Source Contributions](./src/assets/oss_img.webp)\n\n")
         for idx, pr in enumerate(prs, start=1):
             repo = pr["repository"]["nameWithOwner"]
             f.write(f"{idx}. [{pr['title']}]({pr['url']}) — `{repo}`\n")
