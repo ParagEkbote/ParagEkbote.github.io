@@ -1,6 +1,6 @@
 # 💼 External Contributions
 
-These are merged pull requests by [ParagEkbote](https://github.com/ParagEkbote) to projects **outside** of his own repositories.
+Below are merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside his own repos.
 
 **Total merged PRs:** 90
 
