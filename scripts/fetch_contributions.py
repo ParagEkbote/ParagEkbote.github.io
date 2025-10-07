@@ -1,5 +1,7 @@
 import os
 import requests
+import subprocess
+from pathlib import Path
 
 # 🔐 Read token from environment variable
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -26,6 +28,23 @@ GRAPHQL_QUERY = """
   }
 }
 """
+
+def get_repo_root() -> Path:
+    """
+    Return the git repository root as a Path if available.
+    Falls back to current working directory if not in a git repo or git isn't available.
+    """
+    try:
+        root = subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"],
+            stderr=subprocess.DEVNULL,
+        ).decode().strip()
+        return Path(root)
+    except Exception:
+        # Not a git repo or git not installed; fallback to cwd
+        cwd = Path.cwd()
+        print(f"⚠️ Could not determine git root. Falling back to current directory: {cwd}")
+        return cwd
 
 def fetch_merged_external_prs():
     url = "https://api.github.com/graphql"
@@ -93,14 +112,29 @@ def fetch_pytorch_labeled_prs():
         for pr in items
     ]
 
+
 def write_markdown(prs, filename="contributions.md"):
-    with open(filename, "w", encoding="utf-8") as f:
+    """
+    Writes contributions markdown file to the git repo root (or cwd if git root not found).
+    """
+    repo_root = get_repo_root()
+    out_path = repo_root / filename
+
+    # Calculate totals
+    total_prs = len(prs)
+    unique_repos = len(set(pr["repository"]["nameWithOwner"] for pr in prs))
+
+    with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 💼 External Contributions\n\n")
         f.write("These are merged pull requests by [ParagEkbote](https://github.com/ParagEkbote) to projects **outside** of his own repositories.\n\n")
+        f.write(f"**Total merged PRs:** {total_prs}\n\n")
+        f.write(f"**Unique repositories contributed to:** {unique_repos}\n\n")
         f.write("![Open Source Contributions](./src/assets/oss_img.webp)\n\n")
         for idx, pr in enumerate(prs, start=1):
             repo = pr["repository"]["nameWithOwner"]
             f.write(f"{idx}. [{pr['title']}]({pr['url']}) — `{repo}`\n")
+
+    print(f"📝 Wrote contributions file to: {out_path}")
 
 
 if __name__ == "__main__":
@@ -114,6 +148,12 @@ if __name__ == "__main__":
     all_prs = {pr["url"]: pr for pr in merged_external + pytorch_prs}
     combined = list(all_prs.values())
 
-    print(f"📝 Writing {len(combined)} PRs to contributions.md...")
+    # Print summary before writing
+    total_prs = len(combined)
+    unique_repos = len(set(pr["repository"]["nameWithOwner"] for pr in combined))
+    print(f"📊 Total merged external PRs: {total_prs}")
+    print(f"📁 Unique repositories contributed to: {unique_repos}")
+
+    print(f"📝 Writing {total_prs} PRs to contributions.md at repo root...")
     write_markdown(combined)
     print("✅ Done!")
