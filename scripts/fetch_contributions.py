@@ -126,7 +126,7 @@ def write_markdown(prs, filename="contributions.md"):
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 💼 External Contributions\n\n")
-        f.write("Below are merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside his own repos.\n\n")
+        f.write("Below are the merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside of his own repos.\n\n")
         f.write(f"**Total merged PRs:** {total_prs}\n\n")
         f.write(f"**Unique repositories contributed to:** {unique_repos}\n\n")
         f.write("![Open Source Contributions](./src/assets/oss_img.webp)\n\n")
