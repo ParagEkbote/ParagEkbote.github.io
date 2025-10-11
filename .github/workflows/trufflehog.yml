@@ -1,18 +1,26 @@
+name: Secret Leaks
+
 on:
   push:
-
-name: Secret Leaks
+    branches:
+      - main
 
 permissions:
   contents: read
 
 jobs:
   trufflehog:
+    name: TruffleHog OSS
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Secret Scanning
-        uses: trufflesecurity/trufflehog@main
+        uses: trufflesecurity/trufflehog@v3.90.8
+        with:
+          path: .
+          scan: git
