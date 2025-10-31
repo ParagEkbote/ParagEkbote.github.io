@@ -196,7 +196,6 @@ if __name__ == "__main__":
     # Calculate star statistics
     star_stats = calculate_star_stats(combined)
     print(f"⭐ Total stars across projects: {star_stats['total_stars']:,}")
-    print(f"⭐ Average stars per repo: {star_stats['avg_stars']:,.0f}")
     print(f"📝 Writing {total_prs} PRs to contributions.md at repo root...")
     write_markdown(combined, star_stats)
     print("✅ Done!")
