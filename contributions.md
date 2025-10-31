@@ -4,9 +4,7 @@ Below are the merged pull requests, contributed by [ParagEkbote](https://github.
 
 **Total merged PRs:** 95
 
-**Combined repo stars:** 355,619 ⭐
-
-**Average per repo:** 15,462 ⭐
+**Combined repo stars:** 355,650 ⭐
 
 **Unique repositories contributed to:** 23
 
