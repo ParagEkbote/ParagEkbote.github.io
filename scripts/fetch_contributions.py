@@ -2,7 +2,6 @@ import os
 import requests
 import subprocess
 from pathlib import Path
-from statistics import median
 
 # 🔐 Read token from environment variable
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -13,22 +12,30 @@ HEADERS = {
 if GITHUB_TOKEN:
     HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
+
 def get_repo_root() -> Path:
     """
     Return the git repository root as a Path if available.
     Falls back to current working directory if not in a git repo or git isn't available.
     """
     try:
-        root = subprocess.check_output(
-            ["git", "rev-parse", "--show-toplevel"],
-            stderr=subprocess.DEVNULL,
-        ).decode().strip()
+        root = (
+            subprocess.check_output(
+                ["git", "rev-parse", "--show-toplevel"],
+                stderr=subprocess.DEVNULL,
+            )
+            .decode()
+            .strip()
+        )
         return Path(root)
     except Exception:
         # Not a git repo or git not installed; fallback to cwd
         cwd = Path.cwd()
-        print(f"⚠️ Could not determine git root. Falling back to current directory: {cwd}")
+        print(
+            f"⚠️ Could not determine git root. Falling back to current directory: {cwd}"
+        )
         return cwd
+
 
 def fetch_merged_external_prs():
     url = "https://api.github.com/graphql"
@@ -58,7 +65,7 @@ def fetch_merged_external_prs():
         resp = requests.post(url, headers=HEADERS, json={"query": query})
         if resp.status_code != 200:
             raise Exception(f"GraphQL API Error: {resp.status_code} - {resp.text}")
-        
+
         data = resp.json()
         if "errors" in data:
             raise Exception(f"GraphQL Query Error: {data['errors']}")
@@ -73,7 +80,8 @@ def fetch_merged_external_prs():
 
     # Filter out your own repos
     return [
-        pr for pr in all_prs
+        pr
+        for pr in all_prs
         if not pr["repository"]["nameWithOwner"].startswith("ParagEkbote/")
     ]
 
@@ -91,7 +99,7 @@ def fetch_pytorch_labeled_prs():
         {
             "title": pr["title"],
             "url": pr["html_url"],
-            "repository": {"nameWithOwner": "pytorch/pytorch"}
+            "repository": {"nameWithOwner": "pytorch/pytorch"},
         }
         for pr in items
     ]
@@ -117,27 +125,23 @@ def fetch_repo_stars(repo_name):
 def calculate_star_stats(prs):
     """
     Calculate star statistics for contributed repositories.
-    Returns dict with total_stars, avg_stars, median_stars, and repo_stars mapping.
+    Returns dict with total_stars and repo_stars mapping.
     """
     unique_repos = set(pr["repository"]["nameWithOwner"] for pr in prs)
     repo_stars = {}
-    
+
     print(f"⭐ Fetching star counts for {len(unique_repos)} repositories...")
     for repo in unique_repos:
         stars = fetch_repo_stars(repo)
         repo_stars[repo] = stars
         print(f"   {repo}: {stars:,} stars")
-    
+
     star_counts = list(repo_stars.values())
     total_stars = sum(star_counts)
-    avg_stars = total_stars / len(star_counts) if star_counts else 0
-    median_stars = median(star_counts) if star_counts else 0
-    
+
     return {
         "total_stars": total_stars,
-        "avg_stars": avg_stars,
-        "median_stars": median_stars,
-        "repo_stars": repo_stars
+        "repo_stars": repo_stars,
     }
 
 
@@ -154,16 +158,17 @@ def write_markdown(prs, star_stats, filename="contributions.md"):
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 💼 External Contributions\n\n")
-        f.write("Below are the merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside of his own repos.\n\n")
-        
+        f.write(
+            "Below are the merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside of his own repos.\n\n"
+        )
+
         f.write(f"**Total merged PRs:** {total_prs}\n\n")
         # Add star statistics
         f.write(f"**Combined repo stars:** {star_stats['total_stars']:,} ⭐\n\n")
-        f.write(f"**Average per repo:** {star_stats['avg_stars']:,.0f} ⭐\n\n")
-        f.write(f"**Unique repositories contributed to:** {unique_repos}\n\n")        
-        
+        f.write(f"**Unique repositories contributed to:** {unique_repos}\n\n")
+
         f.write("![Open Source Contributions](./src/assets/oss_img.webp)\n\n")
-        
+
         for idx, pr in enumerate(prs, start=1):
             repo = pr["repository"]["nameWithOwner"]
             f.write(f"{idx}. [{pr['title']}]({pr['url']}) — `{repo}`\n")
