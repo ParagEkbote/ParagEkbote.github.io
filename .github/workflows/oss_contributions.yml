@@ -26,8 +26,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Fetch contributions
+      - name: Fetch contributions and stats
         run: python scripts/fetch_contributions.py
+        run: python scripts/pr_insights.py
 
       - name: Commit updated file if changed
         run: |

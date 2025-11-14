@@ -1,0 +1,1118 @@
+[
+  {
+    "url": "https://github.com/PrunaAI/pruna/pull/406",
+    "title": "Reduce Flakiness in CI by configuring HF Token and add caching for HF datasets and models",
+    "createdAt": "2025-10-18T07:04:44Z",
+    "mergedAt": "2025-10-21T10:53:03Z",
+    "additions": 43,
+    "deletions": 3,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "PrunaAI/pruna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/335",
+    "title": "Remove Version Constraint for Transformers",
+    "createdAt": "2025-10-16T12:14:36Z",
+    "mergedAt": "2025-10-20T08:03:59Z",
+    "additions": 0,
+    "deletions": 2,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/PrunaAI/pruna/pull/403",
+    "title": "Create Compatbility Matrix for Algorithm in Docs",
+    "createdAt": "2025-10-13T13:50:45Z",
+    "mergedAt": "2025-10-28T14:57:44Z",
+    "additions": 92,
+    "deletions": 39,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "PrunaAI/pruna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-integration/pull/252",
+    "title": "Migrate `.coveragerc` to `pyproject.toml`",
+    "createdAt": "2025-10-02T15:03:33Z",
+    "mergedAt": "2025-10-06T23:20:26Z",
+    "additions": 0,
+    "deletions": 7,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-integration"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6292",
+    "title": "Migrate `.coveragerc` to `pyproject.toml`",
+    "createdAt": "2025-10-01T19:38:19Z",
+    "mergedAt": "2025-10-14T01:19:06Z",
+    "additions": 5,
+    "deletions": 4,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/886",
+    "title": "Update Dev Dependencies",
+    "createdAt": "2025-09-19T17:24:50Z",
+    "mergedAt": "2025-09-19T19:10:01Z",
+    "additions": 1,
+    "deletions": 4,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/876",
+    "title": "Add pytest coverage for liger-kernel",
+    "createdAt": "2025-09-08T15:02:21Z",
+    "mergedAt": "2025-09-13T21:35:10Z",
+    "additions": 44,
+    "deletions": 2,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/blog/pull/3044",
+    "title": "Add Demo Link for `Fast LoRA inference for Flux with Diffusers and PEFT`",
+    "createdAt": "2025-08-31T13:16:23Z",
+    "mergedAt": "2025-09-01T13:35:05Z",
+    "additions": 1,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/blog"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/869",
+    "title": "Add Classifiers for Liger-Kernel",
+    "createdAt": "2025-08-29T13:59:57Z",
+    "mergedAt": "2025-08-30T15:33:32Z",
+    "additions": 11,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/867",
+    "title": "Enhance Docs",
+    "createdAt": "2025-08-28T17:05:26Z",
+    "mergedAt": "2025-08-30T15:33:06Z",
+    "additions": 109,
+    "deletions": 26,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/PrunaAI/pruna/pull/322",
+    "title": "Add an End-To-End Tutorial for Efficient-Large-Model/Sana_600M_512px_diffusers",
+    "createdAt": "2025-08-28T04:02:54Z",
+    "mergedAt": "2025-10-28T14:56:55Z",
+    "additions": 836,
+    "deletions": 1,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "PrunaAI/pruna"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/12245",
+    "title": "Fix Table Rendering in ReadME",
+    "createdAt": "2025-08-27T06:18:53Z",
+    "mergedAt": "2025-08-27T17:44:50Z",
+    "additions": 2,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/862",
+    "title": "Fix nan loss error for LigerFusedLinearJSDLoss ",
+    "createdAt": "2025-08-22T15:02:55Z",
+    "mergedAt": "2025-08-23T03:39:49Z",
+    "additions": 10,
+    "deletions": 4,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/PrunaAI/pruna/pull/298",
+    "title": "fix: namespace package conflict of optimum and optimum-quanto ",
+    "createdAt": "2025-08-09T10:34:01Z",
+    "mergedAt": "2025-08-29T07:35:42Z",
+    "additions": 8,
+    "deletions": 9,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "PrunaAI/pruna"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/605",
+    "title": "Add Deprecation Warning about TensorFlow.",
+    "createdAt": "2025-07-09T09:43:02Z",
+    "mergedAt": "2025-07-09T17:24:09Z",
+    "additions": 2,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/pull/39272",
+    "title": "Update Model Card for Encoder Decoder Model",
+    "createdAt": "2025-07-08T10:02:55Z",
+    "mergedAt": "2025-07-11T18:23:08Z",
+    "additions": 90,
+    "deletions": 84,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "huggingface/transformers"
+    }
+  },
+  {
+    "url": "https://github.com/Meesho/BharatMLStack/pull/168",
+    "title": "Remove the redundant dist build from py-sdk",
+    "createdAt": "2025-07-07T18:17:49Z",
+    "mergedAt": "2025-07-08T19:09:37Z",
+    "additions": 0,
+    "deletions": 0,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "Meesho/BharatMLStack"
+    }
+  },
+  {
+    "url": "https://github.com/PrunaAI/pruna/pull/230",
+    "title": "test: add pytest and code coverage configuration in `pyproject.toml`",
+    "createdAt": "2025-07-05T06:43:50Z",
+    "mergedAt": "2025-07-08T14:01:47Z",
+    "additions": 24,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "PrunaAI/pruna"
+    }
+  },
+  {
+    "url": "https://github.com/PrunaAI/pruna/pull/227",
+    "title": "build: reduce core dependencies in `pyproject.toml `",
+    "createdAt": "2025-07-02T15:11:53Z",
+    "mergedAt": "2025-07-07T12:50:09Z",
+    "additions": 8,
+    "deletions": 16,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "PrunaAI/pruna"
+    }
+  },
+  {
+    "url": "https://github.com/gradio-app/trackio/pull/75",
+    "title": "Include the Manifest.ini file within pyproject.toml",
+    "createdAt": "2025-07-02T06:17:49Z",
+    "mergedAt": "2025-07-02T17:33:16Z",
+    "additions": 6,
+    "deletions": 2,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "gradio-app/trackio"
+    }
+  },
+  {
+    "url": "https://github.com/skorch-dev/skorch/pull/1108",
+    "title": "Add pyproject.toml to Improve CI/CD and Tooling",
+    "createdAt": "2025-06-15T13:47:17Z",
+    "mergedAt": "2025-06-26T13:25:10Z",
+    "additions": 197,
+    "deletions": 478,
+    "changedFiles": 12,
+    "repository": {
+      "nameWithOwner": "skorch-dev/skorch"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/598",
+    "title": "Typo Fixes-3",
+    "createdAt": "2025-06-08T07:26:47Z",
+    "mergedAt": "2025-06-12T06:57:41Z",
+    "additions": 7,
+    "deletions": 3,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/pull/38610",
+    "title": "[Nit] Add Note on SigOpt being in Public Archive Mode",
+    "createdAt": "2025-06-05T13:39:30Z",
+    "mergedAt": "2025-06-05T21:07:23Z",
+    "additions": 3,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/transformers"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-integration/pull/234",
+    "title": "Update the example list in the ReadME",
+    "createdAt": "2025-06-04T05:26:35Z",
+    "mergedAt": "2025-06-26T06:57:33Z",
+    "additions": 3,
+    "deletions": 3,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-integration"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/cookbook/pull/304",
+    "title": "Add an example using Optuna and Transformers",
+    "createdAt": "2025-06-03T18:58:08Z",
+    "mergedAt": "2025-07-07T16:29:51Z",
+    "additions": 1711,
+    "deletions": 1,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "huggingface/cookbook"
+    }
+  },
+  {
+    "url": "https://github.com/skorch-dev/skorch/pull/1105",
+    "title": "Add Example for Skorch DataLoader",
+    "createdAt": "2025-05-29T19:30:19Z",
+    "mergedAt": "2025-06-13T14:10:54Z",
+    "additions": 674,
+    "deletions": 0,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "skorch-dev/skorch"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/727",
+    "title": "[Fix] Only use the default path for the Doc Site",
+    "createdAt": "2025-05-24T04:15:11Z",
+    "mergedAt": "2025-05-26T15:41:55Z",
+    "additions": 2,
+    "deletions": 2,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/726",
+    "title": "Update ReadMe and make the Documentation Deployment more robust",
+    "createdAt": "2025-05-23T02:40:26Z",
+    "mergedAt": "2025-05-24T02:26:07Z",
+    "additions": 4,
+    "deletions": 3,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/724",
+    "title": "[Fix] Deploy the Mkdocs site to github pages",
+    "createdAt": "2025-05-22T05:55:56Z",
+    "mergedAt": "2025-05-22T19:08:23Z",
+    "additions": 13,
+    "deletions": 3,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/code-butter/blog/pull/1",
+    "title": "Add the first article on virtual environment in Python",
+    "createdAt": "2025-05-06T05:14:00Z",
+    "mergedAt": "2025-05-12T00:16:06Z",
+    "additions": 117,
+    "deletions": 2,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "code-butter/blog"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/pull/37951",
+    "title": "Update Model Card for Mamba-2",
+    "createdAt": "2025-05-04T17:42:49Z",
+    "mergedAt": "2025-05-27T17:06:39Z",
+    "additions": 72,
+    "deletions": 25,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "huggingface/transformers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/11455",
+    "title": "[train_text_to_image_sdxl]Add LANCZOS as default interpolation mode for image resizing",
+    "createdAt": "2025-04-29T15:47:06Z",
+    "mergedAt": "2025-05-05T13:52:19Z",
+    "additions": 13,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/pull/37863",
+    "title": "Update Model Card for Mamba",
+    "createdAt": "2025-04-29T13:33:36Z",
+    "mergedAt": "2025-05-21T17:58:23Z",
+    "additions": 100,
+    "deletions": 61,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/transformers"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-integration/pull/227",
+    "title": "Add SHAP Example ",
+    "createdAt": "2025-04-28T16:33:18Z",
+    "mergedAt": "2025-05-16T09:34:40Z",
+    "additions": 18,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-integration"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-integration/pull/226",
+    "title": "Add Pycma Example",
+    "createdAt": "2025-04-28T14:58:14Z",
+    "mergedAt": "2025-05-14T04:40:34Z",
+    "additions": 22,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-integration"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/322",
+    "title": "Add a transformers example",
+    "createdAt": "2025-04-26T15:01:12Z",
+    "mergedAt": "2025-05-16T02:32:19Z",
+    "additions": 139,
+    "deletions": 0,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6055",
+    "title": "Document Behavior of `optuna.pruners.MedianPruner` and `optuna.pruners.PatientPruner` ",
+    "createdAt": "2025-04-18T17:19:15Z",
+    "mergedAt": "2025-05-09T07:59:10Z",
+    "additions": 16,
+    "deletions": 1,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6053",
+    "title": "Update Type-Checking for `optuna/_gp/gp.py`",
+    "createdAt": "2025-04-16T16:11:42Z",
+    "mergedAt": "2025-04-21T05:06:52Z",
+    "additions": 2,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/316",
+    "title": "Setup Pre-Commit",
+    "createdAt": "2025-04-15T14:22:03Z",
+    "mergedAt": "2025-05-15T23:35:09Z",
+    "additions": 38,
+    "deletions": 0,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6051",
+    "title": "Update Type-Checking for `optuna/_deprecated.py`",
+    "createdAt": "2025-04-15T14:04:11Z",
+    "mergedAt": "2025-04-21T05:05:51Z",
+    "additions": 2,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6050",
+    "title": "Update Type-Checking for `optuna/_convert_positional_args.py`",
+    "createdAt": "2025-04-15T13:23:42Z",
+    "mergedAt": "2025-04-21T05:07:37Z",
+    "additions": 3,
+    "deletions": 2,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6046",
+    "title": "Update Type-Checking for `optuna/importance/_base.py`",
+    "createdAt": "2025-04-14T14:42:33Z",
+    "mergedAt": "2025-04-21T03:52:11Z",
+    "additions": 14,
+    "deletions": 7,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna/pull/6045",
+    "title": "Update Type-Checking for `optuna/_experimental.py`",
+    "createdAt": "2025-04-14T13:29:34Z",
+    "mergedAt": "2025-04-15T10:27:16Z",
+    "additions": 2,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/313",
+    "title": "Update PyTorch Checkpoint Example using tempfile",
+    "createdAt": "2025-04-12T05:31:15Z",
+    "mergedAt": "2025-04-15T04:40:27Z",
+    "additions": 77,
+    "deletions": 90,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/312",
+    "title": "Fix fastai Example",
+    "createdAt": "2025-04-09T14:46:18Z",
+    "mergedAt": "2025-04-11T07:21:40Z",
+    "additions": 2,
+    "deletions": 2,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/pull/37152",
+    "title": "Update Model Card for Jamba",
+    "createdAt": "2025-03-31T17:30:49Z",
+    "mergedAt": "2025-04-07T18:02:59Z",
+    "additions": 90,
+    "deletions": 60,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/transformers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/pull/37052",
+    "title": "Update Model Card for ModernBERT",
+    "createdAt": "2025-03-27T19:03:28Z",
+    "mergedAt": "2025-04-03T17:14:03Z",
+    "additions": 55,
+    "deletions": 31,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/transformers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/11128",
+    "title": "Notebooks for Community Scripts-8",
+    "createdAt": "2025-03-20T18:53:19Z",
+    "mergedAt": "2025-03-20T19:24:48Z",
+    "additions": 45,
+    "deletions": 20,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/559",
+    "title": "Notebooks for Diffuser Community Scripts-8",
+    "createdAt": "2025-03-19T18:04:49Z",
+    "mergedAt": "2025-03-20T17:38:11Z",
+    "additions": 680,
+    "deletions": 0,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/305",
+    "title": "Add Example for Comet",
+    "createdAt": "2025-03-17T18:22:40Z",
+    "mergedAt": "2025-04-14T02:31:52Z",
+    "additions": 65,
+    "deletions": 0,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/optuna/optuna-examples/pull/303",
+    "title": "Fix Skorch Example",
+    "createdAt": "2025-03-12T17:43:56Z",
+    "mergedAt": "2025-03-19T06:33:10Z",
+    "additions": 13,
+    "deletions": 18,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "optuna/optuna-examples"
+    }
+  },
+  {
+    "url": "https://github.com/skorch-dev/skorch/pull/1099",
+    "title": "Nit Fix in LR Scheduler Notebook",
+    "createdAt": "2025-03-11T18:14:43Z",
+    "mergedAt": "2025-03-12T15:55:00Z",
+    "additions": 3,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "skorch-dev/skorch"
+    }
+  },
+  {
+    "url": "https://github.com/skorch-dev/skorch/pull/1098",
+    "title": "Add Optuna Example for Skorch",
+    "createdAt": "2025-03-06T18:14:39Z",
+    "mergedAt": "2025-03-21T15:54:42Z",
+    "additions": 158,
+    "deletions": 0,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "skorch-dev/skorch"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10934",
+    "title": "Add Example of IPAdapterScaleCutoffCallback to Docs",
+    "createdAt": "2025-03-01T07:02:22Z",
+    "mergedAt": "2025-03-03T16:32:45Z",
+    "additions": 78,
+    "deletions": 0,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/skorch-dev/skorch/pull/1097",
+    "title": "Add Contributing Guidelines",
+    "createdAt": "2025-02-26T13:48:58Z",
+    "mergedAt": "2025-03-26T14:07:13Z",
+    "additions": 20,
+    "deletions": 0,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "skorch-dev/skorch"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10846",
+    "title": "Notebooks for Community Scripts-7",
+    "createdAt": "2025-02-20T16:39:57Z",
+    "mergedAt": "2025-02-20T17:02:09Z",
+    "additions": 225,
+    "deletions": 120,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/554",
+    "title": "Notebooks for Diffuser Community Scripts-7",
+    "createdAt": "2025-02-15T09:50:42Z",
+    "mergedAt": "2025-02-19T16:32:21Z",
+    "additions": 1743,
+    "deletions": 0,
+    "changedFiles": 7,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10746",
+    "title": "Extend Support for callback_on_step_end for AuraFlow and LuminaText2Img Pipelines",
+    "createdAt": "2025-02-07T19:13:55Z",
+    "mergedAt": "2025-02-16T17:28:57Z",
+    "additions": 80,
+    "deletions": 2,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10713",
+    "title": "Notebooks for Community Scripts-6",
+    "createdAt": "2025-02-04T06:05:41Z",
+    "mergedAt": "2025-02-04T18:12:17Z",
+    "additions": 101,
+    "deletions": 28,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/trl/pull/2740",
+    "title": "\ud83d\udcd6 Clarification max len in Reward documentation",
+    "createdAt": "2025-02-02T16:17:59Z",
+    "mergedAt": "2025-02-04T20:16:29Z",
+    "additions": 4,
+    "deletions": 4,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/trl"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10704",
+    "title": "Fix Documentation about Image-to-Image Pipeline",
+    "createdAt": "2025-02-02T15:25:54Z",
+    "mergedAt": "2025-02-03T17:54:01Z",
+    "additions": 2,
+    "deletions": 2,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/551",
+    "title": "Notebooks for Diffuser Community Scripts-6",
+    "createdAt": "2025-02-01T17:55:46Z",
+    "mergedAt": "2025-02-03T17:53:06Z",
+    "additions": 843,
+    "deletions": 0,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/trl/pull/2722",
+    "title": "\ud83d\udcd6 Nit Fix in Documentation",
+    "createdAt": "2025-01-31T15:43:47Z",
+    "mergedAt": "2025-01-31T15:46:23Z",
+    "additions": 1,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/trl"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/547",
+    "title": "Fix Broken Links",
+    "createdAt": "2025-01-29T17:45:10Z",
+    "mergedAt": "2025-01-29T18:06:23Z",
+    "additions": 4,
+    "deletions": 4,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/539",
+    "title": "Improve Hugging Face SFT Script",
+    "createdAt": "2025-01-24T15:03:05Z",
+    "mergedAt": "2025-02-21T01:11:21Z",
+    "additions": 23,
+    "deletions": 69,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/NannyML/The-Little-Book-of-ML-Metrics/pull/174",
+    "title": "Add General Notation of Jaccard Index Formula",
+    "createdAt": "2025-01-12T17:43:07Z",
+    "mergedAt": "2025-01-13T20:31:33Z",
+    "additions": 6,
+    "deletions": 8,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "NannyML/The-Little-Book-of-ML-Metrics"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10499",
+    "title": "Notebooks for Community Scripts-5",
+    "createdAt": "2025-01-08T14:48:56Z",
+    "mergedAt": "2025-01-08T16:56:18Z",
+    "additions": 5,
+    "deletions": 5,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/548",
+    "title": "Notebooks for Diffuser Community Scripts-5",
+    "createdAt": "2025-01-06T18:12:53Z",
+    "mergedAt": "2025-01-07T20:07:38Z",
+    "additions": 1785,
+    "deletions": 0,
+    "changedFiles": 5,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/argilla-io/distilabel/pull/1090",
+    "title": "Add Legend to Component Gallery Icons",
+    "createdAt": "2025-01-04T20:09:53Z",
+    "mergedAt": "2025-01-14T15:12:47Z",
+    "additions": 9,
+    "deletions": 1,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "argilla-io/distilabel"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/540",
+    "title": "Fix Typos-2",
+    "createdAt": "2024-12-20T20:04:03Z",
+    "mergedAt": "2024-12-30T18:10:34Z",
+    "additions": 12,
+    "deletions": 16,
+    "changedFiles": 5,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/linkedin/Liger-Kernel/pull/485",
+    "title": "Create Docs for Liger-Kernel",
+    "createdAt": "2024-12-17T11:12:59Z",
+    "mergedAt": "2025-01-22T00:40:43Z",
+    "additions": 789,
+    "deletions": 48,
+    "changedFiles": 11,
+    "repository": {
+      "nameWithOwner": "linkedin/Liger-Kernel"
+    }
+  },
+  {
+    "url": "https://github.com/cfahlgren1/observers/pull/55",
+    "title": "Setup Docs",
+    "createdAt": "2024-12-16T16:22:10Z",
+    "mergedAt": "2024-12-31T10:40:10Z",
+    "additions": 405,
+    "deletions": 0,
+    "changedFiles": 5,
+    "repository": {
+      "nameWithOwner": "cfahlgren1/observers"
+    }
+  },
+  {
+    "url": "https://github.com/mlabonne/llm-datasets/pull/10",
+    "title": "Create CITATION.cff",
+    "createdAt": "2024-12-15T10:54:58Z",
+    "mergedAt": "2024-12-26T21:04:20Z",
+    "additions": 14,
+    "deletions": 1,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "mlabonne/llm-datasets"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/dataset-viewer/pull/3120",
+    "title": "Fix Warnings in Docker Compose",
+    "createdAt": "2024-12-13T16:11:04Z",
+    "mergedAt": "2025-01-16T13:55:27Z",
+    "additions": 3,
+    "deletions": 0,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "huggingface/dataset-viewer"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/lighteval/pull/433",
+    "title": "Deprecate Obsolete Config Properties",
+    "createdAt": "2024-12-10T17:54:03Z",
+    "mergedAt": "2024-12-11T10:14:13Z",
+    "additions": 1,
+    "deletions": 2475,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "huggingface/lighteval"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10117",
+    "title": "Fix Broken Links in ReadMe",
+    "createdAt": "2024-12-04T15:31:30Z",
+    "mergedAt": "2024-12-04T17:04:31Z",
+    "additions": 2,
+    "deletions": 2,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10105",
+    "title": "Fix Broken Link in Optimization Docs",
+    "createdAt": "2024-12-03T17:34:49Z",
+    "mergedAt": "2024-12-03T18:23:35Z",
+    "additions": 1,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10094",
+    "title": "Notebooks for Community Scripts-4",
+    "createdAt": "2024-12-03T05:15:55Z",
+    "mergedAt": "2024-12-03T18:23:00Z",
+    "additions": 17,
+    "deletions": 11,
+    "changedFiles": 2,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10063",
+    "title": "Fixed Nits in Evaluation Docs ",
+    "createdAt": "2024-11-30T18:16:41Z",
+    "mergedAt": "2024-12-02T18:50:01Z",
+    "additions": 12,
+    "deletions": 6,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/536",
+    "title": "Notebooks for Diffuser Community Scripts-4",
+    "createdAt": "2024-11-30T10:01:37Z",
+    "mergedAt": "2024-12-02T19:41:24Z",
+    "additions": 661,
+    "deletions": 0,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/skorch-dev/skorch/pull/1074",
+    "title": "Notebook for Learning Rate Scheduler",
+    "createdAt": "2024-11-28T17:37:40Z",
+    "mergedAt": "2024-12-30T15:48:05Z",
+    "additions": 346,
+    "deletions": 0,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "skorch-dev/skorch"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/10032",
+    "title": "Notebooks for Community Scripts-3",
+    "createdAt": "2024-11-27T05:46:25Z",
+    "mergedAt": "2024-11-27T09:05:45Z",
+    "additions": 6,
+    "deletions": 4,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/535",
+    "title": "Notebooks for Diffuser Community Scripts-3",
+    "createdAt": "2024-11-26T17:05:28Z",
+    "mergedAt": "2024-11-26T19:38:32Z",
+    "additions": 1351,
+    "deletions": 0,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/530",
+    "title": "Typo Fixes",
+    "createdAt": "2024-11-19T08:27:34Z",
+    "mergedAt": "2024-11-19T18:23:04Z",
+    "additions": 20,
+    "deletions": 10,
+    "changedFiles": 6,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/9960",
+    "title": "Move IP Adapter Scripts to research project",
+    "createdAt": "2024-11-19T07:32:08Z",
+    "mergedAt": "2024-11-19T18:37:22Z",
+    "additions": 2032,
+    "deletions": 0,
+    "changedFiles": 6,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/9952",
+    "title": "Notebooks for Community Scripts-2",
+    "createdAt": "2024-11-18T18:13:30Z",
+    "mergedAt": "2024-11-18T20:58:57Z",
+    "additions": 7,
+    "deletions": 5,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/9940",
+    "title": "Fixed Nits in Docs and Example Script",
+    "createdAt": "2024-11-16T19:40:09Z",
+    "mergedAt": "2024-11-18T17:03:22Z",
+    "additions": 3,
+    "deletions": 3,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/527",
+    "title": "Notebooks for Diffuser Community Scripts-2",
+    "createdAt": "2024-11-16T14:30:25Z",
+    "mergedAt": "2024-11-18T17:14:20Z",
+    "additions": 1255,
+    "deletions": 0,
+    "changedFiles": 4,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/9935",
+    "title": "Move Wuerstchen Dreambooth to research_projects",
+    "createdAt": "2024-11-15T13:31:05Z",
+    "mergedAt": "2024-11-16T13:26:16Z",
+    "additions": 0,
+    "deletions": 0,
+    "changedFiles": 6,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/notebooks/pull/525",
+    "title": "Diffuser Notebooks for Community Scripts",
+    "createdAt": "2024-11-11T19:15:29Z",
+    "mergedAt": "2024-11-12T15:23:04Z",
+    "additions": 959,
+    "deletions": 0,
+    "changedFiles": 3,
+    "repository": {
+      "nameWithOwner": "huggingface/notebooks"
+    }
+  },
+  {
+    "url": "https://github.com/huggingface/diffusers/pull/9905",
+    "title": " Notebooks for Community Scripts Examples",
+    "createdAt": "2024-11-11T15:18:49Z",
+    "mergedAt": "2024-11-13T00:08:48Z",
+    "additions": 5,
+    "deletions": 3,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "huggingface/diffusers"
+    }
+  },
+  {
+    "url": "https://github.com/Lightning-AI/litgpt/pull/1821",
+    "title": "Deprecate Support for Dolly, Nous-Hermes, Redpajama-Incite, Vicuna and H2O Danube Models.",
+    "createdAt": "2024-11-03T09:18:04Z",
+    "mergedAt": "2024-11-11T19:41:29Z",
+    "additions": 2,
+    "deletions": 649,
+    "changedFiles": 8,
+    "repository": {
+      "nameWithOwner": "Lightning-AI/litgpt"
+    }
+  },
+  {
+    "url": "https://github.com/mlabonne/llm-datasets/pull/6",
+    "title": "Update README.md",
+    "createdAt": "2024-08-11T10:24:31Z",
+    "mergedAt": "2024-10-25T22:24:27Z",
+    "additions": 10,
+    "deletions": 1,
+    "changedFiles": 1,
+    "repository": {
+      "nameWithOwner": "mlabonne/llm-datasets"
+    }
+  }
+]
