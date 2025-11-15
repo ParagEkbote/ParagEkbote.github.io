@@ -8,7 +8,15 @@
     "deletions": 3,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "PrunaAI/pruna"
+      "nameWithOwner": "PrunaAI/pruna",
+      "description": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead.",
+      "stargazerCount": 957,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -20,7 +28,15 @@
     "deletions": 2,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -32,7 +48,15 @@
     "deletions": 39,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "PrunaAI/pruna"
+      "nameWithOwner": "PrunaAI/pruna",
+      "description": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead.",
+      "stargazerCount": 957,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -44,7 +68,15 @@
     "deletions": 7,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "optuna/optuna-integration"
+      "nameWithOwner": "optuna/optuna-integration",
+      "description": "Extended functionalities for Optuna in combination with third-party libraries.",
+      "stargazerCount": 59,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -56,7 +88,15 @@
     "deletions": 4,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -68,7 +108,15 @@
     "deletions": 4,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -80,7 +128,15 @@
     "deletions": 2,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -92,7 +148,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/blog"
+      "nameWithOwner": "huggingface/blog",
+      "description": "Public repo for HF blog posts",
+      "stargazerCount": 3190,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -104,7 +168,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -116,7 +188,15 @@
     "deletions": 26,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -128,7 +208,15 @@
     "deletions": 1,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "PrunaAI/pruna"
+      "nameWithOwner": "PrunaAI/pruna",
+      "description": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead.",
+      "stargazerCount": 957,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -140,7 +228,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -152,7 +248,15 @@
     "deletions": 4,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -164,7 +268,15 @@
     "deletions": 9,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "PrunaAI/pruna"
+      "nameWithOwner": "PrunaAI/pruna",
+      "description": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead.",
+      "stargazerCount": 957,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -176,7 +288,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -188,7 +308,15 @@
     "deletions": 84,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "huggingface/transformers"
+      "nameWithOwner": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 152536,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -200,7 +328,15 @@
     "deletions": 0,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "Meesho/BharatMLStack"
+      "nameWithOwner": "Meesho/BharatMLStack",
+      "description": "BharatMLStack is an open-source, end-to-end machine learning infrastructure stack built at Meesho to support real-time and batch ML workloads at Bharat scale",
+      "stargazerCount": 590,
+      "primaryLanguage": {
+        "name": "Go"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -212,7 +348,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "PrunaAI/pruna"
+      "nameWithOwner": "PrunaAI/pruna",
+      "description": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead.",
+      "stargazerCount": 957,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -224,7 +368,15 @@
     "deletions": 16,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "PrunaAI/pruna"
+      "nameWithOwner": "PrunaAI/pruna",
+      "description": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead.",
+      "stargazerCount": 957,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -236,7 +388,15 @@
     "deletions": 2,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "gradio-app/trackio"
+      "nameWithOwner": "gradio-app/trackio",
+      "description": "A lightweight, local-first, and \ud83c\udd93 experiment tracking library from Hugging Face \ud83e\udd17",
+      "stargazerCount": 1083,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -248,7 +408,15 @@
     "deletions": 478,
     "changedFiles": 12,
     "repository": {
-      "nameWithOwner": "skorch-dev/skorch"
+      "nameWithOwner": "skorch-dev/skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "stargazerCount": 6132,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -260,7 +428,15 @@
     "deletions": 3,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -272,7 +448,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/transformers"
+      "nameWithOwner": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 152536,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -284,7 +468,15 @@
     "deletions": 3,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna-integration"
+      "nameWithOwner": "optuna/optuna-integration",
+      "description": "Extended functionalities for Optuna in combination with third-party libraries.",
+      "stargazerCount": 59,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -296,7 +488,15 @@
     "deletions": 1,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "huggingface/cookbook"
+      "nameWithOwner": "huggingface/cookbook",
+      "description": "Open-source AI cookbook",
+      "stargazerCount": 2463,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -308,7 +508,15 @@
     "deletions": 0,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "skorch-dev/skorch"
+      "nameWithOwner": "skorch-dev/skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "stargazerCount": 6132,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -320,7 +528,15 @@
     "deletions": 2,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -332,7 +548,15 @@
     "deletions": 3,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -344,7 +568,15 @@
     "deletions": 3,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -356,7 +588,15 @@
     "deletions": 2,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "code-butter/blog"
+      "nameWithOwner": "code-butter/blog",
+      "description": null,
+      "stargazerCount": 3,
+      "primaryLanguage": {
+        "name": "Svelte"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -368,7 +608,15 @@
     "deletions": 25,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "huggingface/transformers"
+      "nameWithOwner": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 152536,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -380,7 +628,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -392,7 +648,15 @@
     "deletions": 61,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/transformers"
+      "nameWithOwner": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 152536,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -404,7 +668,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna-integration"
+      "nameWithOwner": "optuna/optuna-integration",
+      "description": "Extended functionalities for Optuna in combination with third-party libraries.",
+      "stargazerCount": 59,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -416,7 +688,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna-integration"
+      "nameWithOwner": "optuna/optuna-integration",
+      "description": "Extended functionalities for Optuna in combination with third-party libraries.",
+      "stargazerCount": 59,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -428,7 +708,15 @@
     "deletions": 0,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -440,7 +728,15 @@
     "deletions": 1,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -452,7 +748,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -464,7 +768,15 @@
     "deletions": 0,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -476,7 +788,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -488,7 +808,15 @@
     "deletions": 2,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -500,7 +828,15 @@
     "deletions": 7,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -512,7 +848,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna"
+      "nameWithOwner": "optuna/optuna",
+      "description": "A hyperparameter optimization framework",
+      "stargazerCount": 13036,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -524,7 +868,15 @@
     "deletions": 90,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -536,7 +888,15 @@
     "deletions": 2,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -548,7 +908,15 @@
     "deletions": 60,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/transformers"
+      "nameWithOwner": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 152536,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -560,7 +928,15 @@
     "deletions": 31,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/transformers"
+      "nameWithOwner": "huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazerCount": 152536,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -572,7 +948,15 @@
     "deletions": 20,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -584,7 +968,15 @@
     "deletions": 0,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -596,7 +988,15 @@
     "deletions": 0,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -608,7 +1008,15 @@
     "deletions": 18,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "optuna/optuna-examples"
+      "nameWithOwner": "optuna/optuna-examples",
+      "description": "Examples for https://github.com/optuna/optuna",
+      "stargazerCount": 808,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -620,7 +1028,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "skorch-dev/skorch"
+      "nameWithOwner": "skorch-dev/skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "stargazerCount": 6132,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -632,7 +1048,15 @@
     "deletions": 0,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "skorch-dev/skorch"
+      "nameWithOwner": "skorch-dev/skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "stargazerCount": 6132,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -644,7 +1068,15 @@
     "deletions": 0,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -656,7 +1088,15 @@
     "deletions": 0,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "skorch-dev/skorch"
+      "nameWithOwner": "skorch-dev/skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "stargazerCount": 6132,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -668,7 +1108,15 @@
     "deletions": 120,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -680,7 +1128,15 @@
     "deletions": 0,
     "changedFiles": 7,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -692,7 +1148,15 @@
     "deletions": 2,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -704,7 +1168,15 @@
     "deletions": 28,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -716,7 +1188,15 @@
     "deletions": 4,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/trl"
+      "nameWithOwner": "huggingface/trl",
+      "description": "Train transformer language models with reinforcement learning.",
+      "stargazerCount": 16299,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -728,7 +1208,15 @@
     "deletions": 2,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -740,7 +1228,15 @@
     "deletions": 0,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -752,7 +1248,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/trl"
+      "nameWithOwner": "huggingface/trl",
+      "description": "Train transformer language models with reinforcement learning.",
+      "stargazerCount": 16299,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -764,7 +1268,15 @@
     "deletions": 4,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -776,7 +1288,15 @@
     "deletions": 69,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -788,7 +1308,15 @@
     "deletions": 8,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "NannyML/The-Little-Book-of-ML-Metrics"
+      "nameWithOwner": "NannyML/The-Little-Book-of-ML-Metrics",
+      "description": "The book every data scientist needs on their desk.",
+      "stargazerCount": 983,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -800,7 +1328,15 @@
     "deletions": 5,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -812,7 +1348,15 @@
     "deletions": 0,
     "changedFiles": 5,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -824,7 +1368,15 @@
     "deletions": 1,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "argilla-io/distilabel"
+      "nameWithOwner": "argilla-io/distilabel",
+      "description": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers.",
+      "stargazerCount": 2930,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -836,7 +1388,15 @@
     "deletions": 16,
     "changedFiles": 5,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -848,7 +1408,15 @@
     "deletions": 48,
     "changedFiles": 11,
     "repository": {
-      "nameWithOwner": "linkedin/Liger-Kernel"
+      "nameWithOwner": "linkedin/Liger-Kernel",
+      "description": "Efficient Triton Kernels for LLM Training",
+      "stargazerCount": 5836,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -860,7 +1428,15 @@
     "deletions": 0,
     "changedFiles": 5,
     "repository": {
-      "nameWithOwner": "cfahlgren1/observers"
+      "nameWithOwner": "cfahlgren1/observers",
+      "description": "A Lightweight Library for AI Observability",
+      "stargazerCount": 251,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -872,7 +1448,13 @@
     "deletions": 1,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "mlabonne/llm-datasets"
+      "nameWithOwner": "mlabonne/llm-datasets",
+      "description": "Curated list of datasets and tools for post-training.",
+      "stargazerCount": 3943,
+      "primaryLanguage": null
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -884,7 +1466,15 @@
     "deletions": 0,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "huggingface/dataset-viewer"
+      "nameWithOwner": "huggingface/dataset-viewer",
+      "description": "Backend that powers the dataset viewer on Hugging Face dataset pages through a public API.",
+      "stargazerCount": 818,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -896,7 +1486,15 @@
     "deletions": 2475,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "huggingface/lighteval"
+      "nameWithOwner": "huggingface/lighteval",
+      "description": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends",
+      "stargazerCount": 2110,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -908,7 +1506,15 @@
     "deletions": 2,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -920,7 +1526,15 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -932,7 +1546,15 @@
     "deletions": 11,
     "changedFiles": 2,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -944,7 +1566,15 @@
     "deletions": 6,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -956,7 +1586,15 @@
     "deletions": 0,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -968,7 +1606,15 @@
     "deletions": 0,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "skorch-dev/skorch"
+      "nameWithOwner": "skorch-dev/skorch",
+      "description": "A scikit-learn compatible neural network library that wraps PyTorch",
+      "stargazerCount": 6132,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -980,7 +1626,15 @@
     "deletions": 4,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -992,7 +1646,15 @@
     "deletions": 0,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1004,7 +1666,15 @@
     "deletions": 10,
     "changedFiles": 6,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1016,7 +1686,15 @@
     "deletions": 0,
     "changedFiles": 6,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1028,7 +1706,15 @@
     "deletions": 5,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1040,7 +1726,15 @@
     "deletions": 3,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1052,7 +1746,15 @@
     "deletions": 0,
     "changedFiles": 4,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1064,7 +1766,15 @@
     "deletions": 0,
     "changedFiles": 6,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1076,7 +1786,15 @@
     "deletions": 0,
     "changedFiles": 3,
     "repository": {
-      "nameWithOwner": "huggingface/notebooks"
+      "nameWithOwner": "huggingface/notebooks",
+      "description": "Notebooks using the Hugging Face libraries \ud83e\udd17",
+      "stargazerCount": 4374,
+      "primaryLanguage": {
+        "name": "Jupyter Notebook"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1088,7 +1806,15 @@
     "deletions": 3,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "huggingface/diffusers"
+      "nameWithOwner": "huggingface/diffusers",
+      "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazerCount": 31608,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1100,7 +1826,15 @@
     "deletions": 649,
     "changedFiles": 8,
     "repository": {
-      "nameWithOwner": "Lightning-AI/litgpt"
+      "nameWithOwner": "Lightning-AI/litgpt",
+      "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+      "stargazerCount": 12921,
+      "primaryLanguage": {
+        "name": "Python"
+      }
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   },
   {
@@ -1112,7 +1846,13 @@
     "deletions": 1,
     "changedFiles": 1,
     "repository": {
-      "nameWithOwner": "mlabonne/llm-datasets"
+      "nameWithOwner": "mlabonne/llm-datasets",
+      "description": "Curated list of datasets and tools for post-training.",
+      "stargazerCount": 3943,
+      "primaryLanguage": null
+    },
+    "author": {
+      "login": "ParagEkbote"
     }
   }
 ]
