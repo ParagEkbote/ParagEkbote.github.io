@@ -1,0 +1,2 @@
+total_prs,avg_response_time,median_response_time,std_response_time,avg_loc,median_loc,correlation_size_time,weekend_ratio,bimodal_peaks_detected
+93,209.3969922341696,75.80527777777777,312.9004156920784,247.23655913978496,21.0,0.043259881918805455,0.25806451612903225,0

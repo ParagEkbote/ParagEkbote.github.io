@@ -1,0 +1,6 @@
+,loc,loc,loc,response_time,response_time
+,count,mean,median,mean,median
+size_category,,,,,
+Small,55,12.69,10.0,171.68,51.98
+Medium,17,119.29,129.0,267.09,168.54
+Large,19,1066.68,837.0,286.42,57.66
