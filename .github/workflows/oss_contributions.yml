@@ -27,8 +27,9 @@ jobs:
           pip install requests
 
       - name: Fetch contributions and stats
-        run: python scripts/fetch_contributions.py
-        run: python scripts/pr_insights.py
+        run: |
+          python scripts/fetch_contributions.py
+          python scripts/pr_insights.py
 
       - name: Commit updated file if changed
         run: |
