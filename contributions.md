@@ -4,11 +4,11 @@ Below are the merged pull requests, contributed by [ParagEkbote](https://github.
 
 **Total merged PRs:** 100
 
-**Combined repo stars:** 363,402 ⭐
+**Combined repo stars:** 363,546 ⭐
 
 **Unique repositories contributed to:** 23
 
-![Open Source Contributions](./src/assets/oss_img.webp)
+![Open Source Contributions](./src/assets/oss_hero_img.webp)
 
 1. [Remove python 3.9 due to EOL Status](https://github.com/optuna/optuna-examples/pull/344) — `optuna/optuna-examples`
 2. [Bump Minimum Version of Python to 3.10](https://github.com/PrunaAI/pruna/pull/472) — `PrunaAI/pruna`
