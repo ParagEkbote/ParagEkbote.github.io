@@ -157,14 +157,32 @@ def write_markdown(prs, star_stats, filename="contributions.md"):
     unique_repos = len(set(pr["repository"]["nameWithOwner"] for pr in prs))
 
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write("# 💼 External Contributions\n\n")
+        f.write("# 💼 External Open-Source Contributions\n\n")
+
         f.write(
-            "Below are the merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside of his own repos.\n\n"
+            "This page aggregates merged pull requests contributed by "
+            "[ParagEkbote](https://github.com/ParagEkbote) to open-source projects "
+            "outside of personal repositories.\n\n"
         )
 
+        # --- Medium article highlight ---
+        f.write("> **Related reading:**\n>\n")
+        f.write(
+            "> *What 90+ Open-Source PRs Taught Me About Software Quality and "
+            "Engineering at Scale*  \n"
+            "> A reflective write-up on patterns, review discipline, and long-term "
+            "maintainability observed across real production codebases.\n>\n"
+        )
+        f.write(
+            "> 🔗 https://medium.com/@paragekbote23/"
+            "what-90-open-source-prs-taught-me-about-software-quality-and-"
+            "engineering-at-scale-131a5a28fc68\n\n"
+        )
+
+        f.write("---\n\n")
+
         f.write(f"**Total merged PRs:** {total_prs}\n\n")
-        # Add star statistics
-        f.write(f"**Combined repo stars:** {star_stats['total_stars']:,} ⭐\n\n")
+        f.write(f"**Combined repository stars:** {star_stats['total_stars']:,} ⭐\n\n")
         f.write(f"**Unique repositories contributed to:** {unique_repos}\n\n")
 
         f.write("![Open Source Contributions](./src/assets/oss_hero_img.webp)\n\n")

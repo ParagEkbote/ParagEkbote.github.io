@@ -307,7 +307,7 @@ def export_case_study_markdown(insights, prs, filename="oss_case_study.md"):
     
     # Header
     lines.append("# 📊 Open Source Contribution Case Study")
-    lines.append(f"\n**Developer:** Parag Ekbote")
+    lines.append("\n**Developer:** Parag Ekbote")
     lines.append(f"**Analysis Date:** {datetime.now().strftime('%B %d, %Y')}")
     lines.append(f"**Total Contributions Analyzed:** {insights['total_prs']} merged PRs\n")
     lines.append("---\n")

@@ -1,10 +1,19 @@
-# 💼 External Contributions
+# 💼 External Open-Source Contributions
 
-Below are the merged pull requests, contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside of his own repos.
+This page aggregates merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote) to open-source projects outside of personal repositories.
+
+> **Related reading:**
+>
+> *What 90+ Open-Source PRs Taught Me About Software Quality and Engineering at Scale*  
+> A reflective write-up on patterns, review discipline, and long-term maintainability observed across real production codebases.
+>
+> 🔗 https://medium.com/@paragekbote23/what-90-open-source-prs-taught-me-about-software-quality-and-engineering-at-scale-131a5a28fc68
+
+---
 
 **Total merged PRs:** 100
 
-**Combined repo stars:** 363,546 ⭐
+**Combined repository stars:** 364,324 ⭐
 
 **Unique repositories contributed to:** 23
 
