@@ -6,9 +6,9 @@ Merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote
 
 **Total merged PRs:** 101
 
-**Combined repository stars:** 364,903 ⭐
+**Unique repositories:** 23
 
-**Combined repository stars:** 365,489 ⭐
+**Combined repository stars:** 365,490 ⭐
 
 ![Open Source Contributions](./src/assets/oss_hero_img.webp)
 
