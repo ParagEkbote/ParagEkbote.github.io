@@ -1,23 +1,45 @@
 import os
 import requests
 import subprocess
+import time
 from pathlib import Path
 
-# 🔐 Read token from environment variable
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+# -------------------------------------------------------
+# AUTH & HEADERS
+# -------------------------------------------------------
+
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+
+if not GITHUB_TOKEN:
+    raise RuntimeError("GITHUB_TOKEN is required (GraphQL does not work without it)")
 
 HEADERS = {
-    "Accept": "application/vnd.github.v3+json",
+    "Authorization": f"Bearer {GITHUB_TOKEN}",
+    "Accept": "application/vnd.github+json",
+    "Content-Type": "application/json",
 }
-if GITHUB_TOKEN:
-    HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+GRAPHQL_URL = "https://api.github.com/graphql"
+REST_URL = "https://api.github.com"
+
+# -------------------------------------------------------
+# UTILS
+# -------------------------------------------------------
+
+def safe_json(resp: requests.Response):
+    if resp.status_code != 200:
+        raise RuntimeError(f"GitHub API error {resp.status_code}: {resp.text}")
+
+    if not resp.text or not resp.text.strip():
+        raise RuntimeError("Empty response from GitHub API")
+
+    try:
+        return resp.json()
+    except ValueError:
+        raise RuntimeError(f"Non-JSON response:\n{resp.text}")
 
 
 def get_repo_root() -> Path:
-    """
-    Return the git repository root as a Path if available.
-    Falls back to current working directory if not in a git repo or git isn't available.
-    """
     try:
         root = (
             subprocess.check_output(
@@ -29,23 +51,27 @@ def get_repo_root() -> Path:
         )
         return Path(root)
     except Exception:
-        # Not a git repo or git not installed; fallback to cwd
         cwd = Path.cwd()
-        print(
-            f"⚠️ Could not determine git root. Falling back to current directory: {cwd}"
-        )
+        print(f"⚠️ Could not determine git root. Falling back to: {cwd}")
         return cwd
 
+# -------------------------------------------------------
+# GRAPHQL: MERGED EXTERNAL PRs
+# -------------------------------------------------------
 
-def fetch_merged_external_prs():
-    url = "https://api.github.com/graphql"
+def fetch_merged_external_prs(author="ParagEkbote"):
     all_prs = []
     cursor = None
 
     while True:
         query = f"""
         {{
-          search(query: "author:ParagEkbote is:pr is:merged", type: ISSUE, first: 100{f', after: "{cursor}"' if cursor else ""}) {{
+          search(
+            query: "author:{author} is:pr is:merged",
+            type: ISSUE,
+            first: 100
+            {f', after: "{cursor}"' if cursor else ""}
+          ) {{
             pageInfo {{
               hasNextPage
               endCursor
@@ -62,15 +88,17 @@ def fetch_merged_external_prs():
           }}
         }}
         """
-        resp = requests.post(url, headers=HEADERS, json={"query": query})
-        if resp.status_code != 200:
-            raise Exception(f"GraphQL API Error: {resp.status_code} - {resp.text}")
 
-        data = resp.json()
+        resp = requests.post(GRAPHQL_URL, headers=HEADERS, json={"query": query})
+        data = safe_json(resp)
+
         if "errors" in data:
-            raise Exception(f"GraphQL Query Error: {data['errors']}")
+            raise RuntimeError(f"GraphQL query error: {data['errors']}")
 
-        search = data["data"]["search"]
+        search = data.get("data", {}).get("search")
+        if not search:
+            raise RuntimeError(f"Malformed GraphQL response: {data}")
+
         all_prs.extend(search["nodes"])
 
         if not search["pageInfo"]["hasNextPage"]:
@@ -78,23 +106,44 @@ def fetch_merged_external_prs():
 
         cursor = search["pageInfo"]["endCursor"]
 
-    # Filter out your own repos
+    # Filter out personal repos
     return [
-        pr
-        for pr in all_prs
-        if not pr["repository"]["nameWithOwner"].startswith("ParagEkbote/")
+        pr for pr in all_prs
+        if not pr["repository"]["nameWithOwner"].startswith(f"{author}/")
     ]
 
+# -------------------------------------------------------
+# REST: PYTORCH PRs
+# -------------------------------------------------------
 
-def fetch_pytorch_labeled_prs():
+def fetch_pytorch_prs():
     url = "https://api.github.com/search/issues"
     params = {
+        # DO NOT CHANGE — PyTorch uses a specific labeling workflow
         "q": "repo:pytorch/pytorch author:ParagEkbote is:pr is:closed label:Merged"
     }
+
     resp = requests.get(url, headers=HEADERS, params=params)
+
     if resp.status_code != 200:
-        raise Exception(f"REST API Error: {resp.status_code} - {resp.text}")
-    items = resp.json().get("items", [])
+        raise RuntimeError(
+            f"REST API Error {resp.status_code}: {resp.text}"
+        )
+
+    if not resp.text or not resp.text.strip():
+        raise RuntimeError("Empty response from GitHub REST search API")
+
+    try:
+        data = resp.json()
+    except ValueError:
+        raise RuntimeError(
+            f"Non-JSON response from GitHub REST API:\n{resp.text}"
+        )
+
+    items = data.get("items", [])
+    if not isinstance(items, list):
+        raise RuntimeError(f"Malformed REST search payload: {data}")
+
     return [
         {
             "title": pr["title"],
@@ -104,30 +153,22 @@ def fetch_pytorch_labeled_prs():
         for pr in items
     ]
 
+# -------------------------------------------------------
+# STARS (RATE-LIMIT SAFE)
+# -------------------------------------------------------
 
 def fetch_repo_stars(repo_name):
-    """
-    Fetch star count for a given repository.
-    """
-    url = f"https://api.github.com/repos/{repo_name}"
-    try:
-        resp = requests.get(url, headers=HEADERS)
-        if resp.status_code == 200:
-            return resp.json().get("stargazers_count", 0)
-        else:
-            print(f"⚠️ Could not fetch stars for {repo_name}: {resp.status_code}")
-            return 0
-    except Exception as e:
-        print(f"⚠️ Error fetching stars for {repo_name}: {e}")
-        return 0
+    resp = requests.get(f"{REST_URL}/repos/{repo_name}", headers=HEADERS)
+
+    if resp.status_code == 200:
+        return safe_json(resp).get("stargazers_count", 0)
+
+    print(f"⚠️ Could not fetch stars for {repo_name}: {resp.status_code}")
+    return 0
 
 
 def calculate_star_stats(prs):
-    """
-    Calculate star statistics for contributed repositories.
-    Returns dict with total_stars and repo_stars mapping.
-    """
-    unique_repos = set(pr["repository"]["nameWithOwner"] for pr in prs)
+    unique_repos = sorted({pr["repository"]["nameWithOwner"] for pr in prs})
     repo_stars = {}
 
     print(f"⭐ Fetching star counts for {len(unique_repos)} repositories...")
@@ -135,85 +176,64 @@ def calculate_star_stats(prs):
         stars = fetch_repo_stars(repo)
         repo_stars[repo] = stars
         print(f"   {repo}: {stars:,} stars")
-
-    star_counts = list(repo_stars.values())
-    total_stars = sum(star_counts)
+        time.sleep(0.2)  # prevent secondary rate limit
 
     return {
-        "total_stars": total_stars,
+        "total_stars": sum(repo_stars.values()),
         "repo_stars": repo_stars,
     }
 
+# -------------------------------------------------------
+# MARKDOWN OUTPUT
+# -------------------------------------------------------
 
 def write_markdown(prs, star_stats, filename="contributions.md"):
-    """
-    Writes contributions markdown file to the git repo root (or cwd if git root not found).
-    """
     repo_root = get_repo_root()
     out_path = repo_root / filename
 
-    # Calculate totals
     total_prs = len(prs)
-    unique_repos = len(set(pr["repository"]["nameWithOwner"] for pr in prs))
+    unique_repos = len({pr["repository"]["nameWithOwner"] for pr in prs})
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 💼 External Open-Source Contributions\n\n")
-
         f.write(
-            "This page aggregates merged pull requests contributed by "
-            "[ParagEkbote](https://github.com/ParagEkbote) to open-source projects "
-            "outside of personal repositories.\n\n"
-        )
-
-        # --- Medium article highlight ---
-        f.write("> **Related reading:**\n>\n")
-        f.write(
-            "> *What 90+ Open-Source PRs Taught Me About Software Quality and "
-            "Engineering at Scale*  \n"
-            "> A reflective write-up on patterns, review discipline, and long-term "
-            "maintainability observed across real production codebases.\n>\n"
-        )
-        f.write(
-            "> 🔗 https://medium.com/@paragekbote23/"
-            "what-90-open-source-prs-taught-me-about-software-quality-and-"
-            "engineering-at-scale-131a5a28fc68\n\n"
+            "Merged pull requests contributed by "
+            "[ParagEkbote](https://github.com/ParagEkbote) "
+            "to external open-source projects.\n\n"
         )
 
         f.write("---\n\n")
-
         f.write(f"**Total merged PRs:** {total_prs}\n\n")
+        f.write(f"**Unique repositories:** {unique_repos}\n\n")
         f.write(f"**Combined repository stars:** {star_stats['total_stars']:,} ⭐\n\n")
-        f.write(f"**Unique repositories contributed to:** {unique_repos}\n\n")
 
         f.write("![Open Source Contributions](./src/assets/oss_hero_img.webp)\n\n")
 
         for idx, pr in enumerate(prs, start=1):
-            repo = pr["repository"]["nameWithOwner"]
+            repo = pr.get("repository", {}).get("nameWithOwner", "unknown")
             f.write(f"{idx}. [{pr['title']}]({pr['url']}) — `{repo}`\n")
 
     print(f"📝 Wrote contributions file to: {out_path}")
 
+# -------------------------------------------------------
+# MAIN
+# -------------------------------------------------------
 
 if __name__ == "__main__":
     print("📥 Fetching merged external PRs...")
     merged_external = fetch_merged_external_prs()
 
-    print("📥 Fetching PyTorch labeled PRs...")
-    pytorch_prs = fetch_pytorch_labeled_prs()
+    print("📥 Fetching PyTorch PRs...")
+    pytorch_prs = fetch_pytorch_prs()
 
-    # Combine and deduplicate by URL
-    all_prs = {pr["url"]: pr for pr in merged_external + pytorch_prs}
-    combined = list(all_prs.values())
+    # Deduplicate by URL
+    combined = {pr["url"]: pr for pr in merged_external + pytorch_prs}.values()
+    combined = list(combined)
 
-    # Print summary before writing
-    total_prs = len(combined)
-    unique_repos = len(set(pr["repository"]["nameWithOwner"] for pr in combined))
-    print(f"📊 Total merged external PRs: {total_prs}")
-    print(f"📁 Unique repositories contributed to: {unique_repos}")
+    print(f"📊 Total merged external PRs: {len(combined)}")
 
-    # Calculate star statistics
     star_stats = calculate_star_stats(combined)
     print(f"⭐ Total stars across projects: {star_stats['total_stars']:,}")
-    print(f"📝 Writing {total_prs} PRs to contributions.md at repo root...")
+
     write_markdown(combined, star_stats)
     print("✅ Done!")
