@@ -6,7 +6,7 @@ Merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote
 
 **Total merged PRs:** 101
 
-**Unique repositories:** 23
+**Combined repository stars:** 364,903 ⭐
 
 **Combined repository stars:** 365,489 ⭐
 
