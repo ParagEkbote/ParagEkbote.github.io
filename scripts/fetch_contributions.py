@@ -228,7 +228,13 @@ if __name__ == "__main__":
 
     # Deduplicate by URL
     combined = {pr["url"]: pr for pr in merged_external + pytorch_prs}.values()
-    combined = list(combined)
+    combined = sorted(
+        combined,
+        key=lambda pr: (
+            pr.get("repository", {}).get("nameWithOwner", "").lower(),
+            pr.get("title", "").lower(),
+        )
+    )
 
     print(f"📊 Total merged external PRs: {len(combined)}")
 
