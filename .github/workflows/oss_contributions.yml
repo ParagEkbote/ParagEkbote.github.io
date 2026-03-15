@@ -29,7 +29,6 @@ jobs:
       - name: Fetch contributions and stats
         run: |
           python scripts/fetch_contributions.py
-          python scripts/pr_insights.py
 
       - name: Commit updated file if changed
         run: |
