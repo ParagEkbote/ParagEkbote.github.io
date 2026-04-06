@@ -236,7 +236,7 @@ Instructions:
 2. Provide a concise but structured summary including:
    - Overall contribution profile (breadth vs depth)
    - Most impactful repositories
-   - Patterns in contributions (e.g., repeated repos, types of changes)
+   - Patterns in contributions (e.g., repeated repos, types and scope of changes)
    - Signals of specialization or strength
 
 3. Then transition into an interactive Q&A mode.

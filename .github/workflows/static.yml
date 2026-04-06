@@ -46,7 +46,7 @@ jobs:
             echo "should_skip=false" >> $GITHUB_ENV
           fi
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
