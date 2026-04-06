@@ -151,13 +151,13 @@
 - `NannyML/The-Little-Book-of-ML-Metrics`: 1 PRs
 
 ### 📦 Repository Activity (sorted by stars)
-- `huggingface/transformers` → ⭐ 158,853, forks 32,746, open issues 2,359
-- `pytorch/pytorch` → ⭐ 98,825, forks 27,413, open issues 18,215
-- `hiyouga/LlamaFactory` → ⭐ 69,586, forks 8,476, open issues 948
-- `huggingface/diffusers` → ⭐ 33,269, forks 6,895, open issues 984
+- `huggingface/transformers` → ⭐ 158,853, forks 32,747, open issues 2,359
+- `pytorch/pytorch` → ⭐ 98,825, forks 27,413, open issues 18,217
+- `hiyouga/LlamaFactory` → ⭐ 69,587, forks 8,476, open issues 948
+- `huggingface/diffusers` → ⭐ 33,269, forks 6,896, open issues 984
 - `huggingface/trl` → ⭐ 17,933, forks 2,616, open issues 665
 - `optuna/optuna` → ⭐ 13,854, forks 1,292, open issues 25
-- `Lightning-AI/litgpt` → ⭐ 13,280, forks 1,418, open issues 253
+- `Lightning-AI/litgpt` → ⭐ 13,279, forks 1,418, open issues 253
 - `linkedin/Liger-Kernel` → ⭐ 6,260, forks 509, open issues 140
 - `skorch-dev/skorch` → ⭐ 6,151, forks 406, open issues 66
 - `huggingface/notebooks` → ⭐ 4,504, forks 1,810, open issues 228
