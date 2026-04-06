@@ -1,14 +1,16 @@
 # 💼 External Open-Source Contributions
 
-Merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote) to external open-source projects.
+[![View Raw Markdown](https://img.shields.io/badge/View-Raw%20Markdown-blue?style=for-the-badge)](./contributions.md)
+
+[![Claude](https://img.shields.io/badge/Ask%20Claude-Chat%20about%20this%20page-f4a261?style=for-the-badge&logo=anthropic)](https://claude.ai/new?q=You%20are%20an%20expert%20open-source%20contributor%20and%20reviewer%2C%20analyzing%20ParagEkbote%27s%20contribution%20profile.%0A%0APrimary%20source%20of%20truth%3A%0Ahttps%3A%2F%2Fraw.githubusercontent.com%2FParagEkbote%2FParagEkbote.github.io%2Fmain%2Fcontributions.md%0A%0AContext%3A%0A-%20Total%20merged%20PRs%3A%20107%0A-%20Unique%20repositories%3A%2024%0A-%20Top%20repositories%20by%20stars%3A%0A%20%20-%20huggingface%2Ftransformers%0A%20%20-%20pytorch%2Fpytorch%0A%20%20-%20hiyouga%2FLlamaFactory%0A%20%20-%20huggingface%2Fdiffusers%0A%20%20-%20huggingface%2Ftrl%0A%0AInstructions%3A%0A1.%20Read%20and%20internalize%20the%20contributions%20page.%0A2.%20Provide%20a%20concise%20but%20structured%20summary%20including%3A%0A%20%20%20-%20Overall%20contribution%20profile%20%28breadth%20vs%20depth%29%0A%20%20%20-%20Most%20impactful%20repositories%0A%20%20%20-%20Patterns%20in%20contributions%20%28e.g.%2C%20repeated%20repos%2C%20types%20of%20changes%29%0A%20%20%20-%20Signals%20of%20specialization%20or%20strength%0A%0A3.%20Then%20transition%20into%20an%20interactive%20Q%26A%20mode.%0A%0AYou%20may%20guide%20the%20reader%20by%20suggesting%20questions%20such%20as%3A%0A%0A-%20What%20does%20this%20contribution%20profile%20suggest%20about%20the%20contributor%E2%80%99s%20engineering%20strengths%3F%0A-%20Does%20the%20contribution%20profile%20indicate%20depth%20in%20specific%20projects%20or%20breadth%20across%20ecosystems%3F%0A-%20What%20patterns%20can%20be%20observed%20in%20contribution%20behavior%20%28e.g.%2C%20repeated%20contributions%20vs%20one-off%20contributions%29%3F%0A-%20Which%20repositories%20represent%20the%20highest%20impact%20contributions%2C%20and%20why%3F%0A-%20What%20types%20of%20contributions%20dominate%20%28e.g.%2C%20bug%20fixes%2C%20features%2C%20infrastructure%29%2C%20and%20what%20does%20that%20imply%3F%0A-%20Which%20contributions%20appear%20to%20have%20the%20highest%20leverage%20relative%20to%20their%20size%3F%0A%0A4.%20Be%20analytical%2C%20not%20generic.%20Prefer%20insight%20over%20description.%0A%0A5.%20Stay%20grounded%20strictly%20in%20the%20data%20from%20the%20page.%20If%20a%20question%20cannot%20be%20answered%2C%20explicitly%20state%20that.%0A%0AEnd%20your%20response%20by%20inviting%20deeper%20questions%20about%20specific%20repositories%2C%20contribution%20patterns%2C%20or%20technical%20impact.) [![ChatGPT](https://img.shields.io/badge/Ask%20ChatGPT-Chat%20about%20this%20page-10a37f?style=for-the-badge&logo=openai)](https://chatgpt.com/?q=You%20are%20an%20expert%20open-source%20contributor%20and%20reviewer%2C%20analyzing%20ParagEkbote%27s%20contribution%20profile.%0A%0APrimary%20source%20of%20truth%3A%0Ahttps%3A%2F%2Fraw.githubusercontent.com%2FParagEkbote%2FParagEkbote.github.io%2Fmain%2Fcontributions.md%0A%0AContext%3A%0A-%20Total%20merged%20PRs%3A%20107%0A-%20Unique%20repositories%3A%2024%0A-%20Top%20repositories%20by%20stars%3A%0A%20%20-%20huggingface%2Ftransformers%0A%20%20-%20pytorch%2Fpytorch%0A%20%20-%20hiyouga%2FLlamaFactory%0A%20%20-%20huggingface%2Fdiffusers%0A%20%20-%20huggingface%2Ftrl%0A%0AInstructions%3A%0A1.%20Read%20and%20internalize%20the%20contributions%20page.%0A2.%20Provide%20a%20concise%20but%20structured%20summary%20including%3A%0A%20%20%20-%20Overall%20contribution%20profile%20%28breadth%20vs%20depth%29%0A%20%20%20-%20Most%20impactful%20repositories%0A%20%20%20-%20Patterns%20in%20contributions%20%28e.g.%2C%20repeated%20repos%2C%20types%20of%20changes%29%0A%20%20%20-%20Signals%20of%20specialization%20or%20strength%0A%0A3.%20Then%20transition%20into%20an%20interactive%20Q%26A%20mode.%0A%0AYou%20may%20guide%20the%20reader%20by%20suggesting%20questions%20such%20as%3A%0A%0A-%20What%20does%20this%20contribution%20profile%20suggest%20about%20the%20contributor%E2%80%99s%20engineering%20strengths%3F%0A-%20Does%20the%20contribution%20profile%20indicate%20depth%20in%20specific%20projects%20or%20breadth%20across%20ecosystems%3F%0A-%20What%20patterns%20can%20be%20observed%20in%20contribution%20behavior%20%28e.g.%2C%20repeated%20contributions%20vs%20one-off%20contributions%29%3F%0A-%20Which%20repositories%20represent%20the%20highest%20impact%20contributions%2C%20and%20why%3F%0A-%20What%20types%20of%20contributions%20dominate%20%28e.g.%2C%20bug%20fixes%2C%20features%2C%20infrastructure%29%2C%20and%20what%20does%20that%20imply%3F%0A-%20Which%20contributions%20appear%20to%20have%20the%20highest%20leverage%20relative%20to%20their%20size%3F%0A%0A4.%20Be%20analytical%2C%20not%20generic.%20Prefer%20insight%20over%20description.%0A%0A5.%20Stay%20grounded%20strictly%20in%20the%20data%20from%20the%20page.%20If%20a%20question%20cannot%20be%20answered%2C%20explicitly%20state%20that.%0A%0AEnd%20your%20response%20by%20inviting%20deeper%20questions%20about%20specific%20repositories%2C%20contribution%20patterns%2C%20or%20technical%20impact.) [![HuggingChat](https://img.shields.io/badge/Ask%20HuggingChat-Chat%20about%20this%20page-ff9d00?style=for-the-badge&logo=huggingface)](https://huggingface.co/chat?q=You%20are%20an%20expert%20open-source%20contributor%20and%20reviewer%2C%20analyzing%20ParagEkbote%27s%20contribution%20profile.%0A%0APrimary%20source%20of%20truth%3A%0Ahttps%3A%2F%2Fraw.githubusercontent.com%2FParagEkbote%2FParagEkbote.github.io%2Fmain%2Fcontributions.md%0A%0AContext%3A%0A-%20Total%20merged%20PRs%3A%20107%0A-%20Unique%20repositories%3A%2024%0A-%20Top%20repositories%20by%20stars%3A%0A%20%20-%20huggingface%2Ftransformers%0A%20%20-%20pytorch%2Fpytorch%0A%20%20-%20hiyouga%2FLlamaFactory%0A%20%20-%20huggingface%2Fdiffusers%0A%20%20-%20huggingface%2Ftrl%0A%0AInstructions%3A%0A1.%20Read%20and%20internalize%20the%20contributions%20page.%0A2.%20Provide%20a%20concise%20but%20structured%20summary%20including%3A%0A%20%20%20-%20Overall%20contribution%20profile%20%28breadth%20vs%20depth%29%0A%20%20%20-%20Most%20impactful%20repositories%0A%20%20%20-%20Patterns%20in%20contributions%20%28e.g.%2C%20repeated%20repos%2C%20types%20of%20changes%29%0A%20%20%20-%20Signals%20of%20specialization%20or%20strength%0A%0A3.%20Then%20transition%20into%20an%20interactive%20Q%26A%20mode.%0A%0AYou%20may%20guide%20the%20reader%20by%20suggesting%20questions%20such%20as%3A%0A%0A-%20What%20does%20this%20contribution%20profile%20suggest%20about%20the%20contributor%E2%80%99s%20engineering%20strengths%3F%0A-%20Does%20the%20contribution%20profile%20indicate%20depth%20in%20specific%20projects%20or%20breadth%20across%20ecosystems%3F%0A-%20What%20patterns%20can%20be%20observed%20in%20contribution%20behavior%20%28e.g.%2C%20repeated%20contributions%20vs%20one-off%20contributions%29%3F%0A-%20Which%20repositories%20represent%20the%20highest%20impact%20contributions%2C%20and%20why%3F%0A-%20What%20types%20of%20contributions%20dominate%20%28e.g.%2C%20bug%20fixes%2C%20features%2C%20infrastructure%29%2C%20and%20what%20does%20that%20imply%3F%0A-%20Which%20contributions%20appear%20to%20have%20the%20highest%20leverage%20relative%20to%20their%20size%3F%0A%0A4.%20Be%20analytical%2C%20not%20generic.%20Prefer%20insight%20over%20description.%0A%0A5.%20Stay%20grounded%20strictly%20in%20the%20data%20from%20the%20page.%20If%20a%20question%20cannot%20be%20answered%2C%20explicitly%20state%20that.%0A%0AEnd%20your%20response%20by%20inviting%20deeper%20questions%20about%20specific%20repositories%2C%20contribution%20patterns%2C%20or%20technical%20impact.)
 
 ---
 
-**Total merged PRs:** 104
+**Total merged PRs:** 107
 
 **Unique repositories:** 24
 
-**Combined repository stars:** 439,554 ⭐
+**Combined repository stars:** 444,668 ⭐
 
 ![Open Source Contributions](./src/assets/oss_hero_img.webp)
 
@@ -104,15 +106,72 @@ Merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote
 90. [Bump Minimum Version of Python to 3.10](https://github.com/PrunaAI/pruna/pull/472) — `PrunaAI/pruna`
 91. [Create Compatbility Matrix for Algorithm in Docs](https://github.com/PrunaAI/pruna/pull/403) — `PrunaAI/pruna`
 92. [Enable TruffleHog in pre-commit](https://github.com/PrunaAI/pruna/pull/439) — `PrunaAI/pruna`
-93. [fix: namespace package conflict of optimum and optimum-quanto ](https://github.com/PrunaAI/pruna/pull/298) — `PrunaAI/pruna`
-94. [Pin `torchao==0.12.0` to avoid PyTorch ABI warnings, also pin `numpydoc>=1.6.0` and `ty==0.0.1a21` for compatibility.](https://github.com/PrunaAI/pruna/pull/417) — `PrunaAI/pruna`
-95. [Reduce Flakiness in CI by configuring HF Token and add caching for HF datasets and models](https://github.com/PrunaAI/pruna/pull/406) — `PrunaAI/pruna`
-96. [test: add pytest and code coverage configuration in `pyproject.toml`](https://github.com/PrunaAI/pruna/pull/230) — `PrunaAI/pruna`
-97. [Add a Additional Example that showcases the usage of `torch.autograd.functional.jacobian`](https://github.com/pytorch/pytorch/pull/155683) — `pytorch/pytorch`
-98. [Document the default garbage_collection_threshold value and improve the organization of cuda docs](https://github.com/pytorch/pytorch/pull/155341) — `pytorch/pytorch`
-99. [Add Contributing Guidelines](https://github.com/skorch-dev/skorch/pull/1097) — `skorch-dev/skorch`
-100. [Add Example for Skorch DataLoader](https://github.com/skorch-dev/skorch/pull/1105) — `skorch-dev/skorch`
-101. [Add Optuna Example for Skorch](https://github.com/skorch-dev/skorch/pull/1098) — `skorch-dev/skorch`
-102. [Add pyproject.toml to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108) — `skorch-dev/skorch`
-103. [Nit Fix in LR Scheduler Notebook](https://github.com/skorch-dev/skorch/pull/1099) — `skorch-dev/skorch`
-104. [Notebook for Learning Rate Scheduler](https://github.com/skorch-dev/skorch/pull/1074) — `skorch-dev/skorch`
+93. [fix(torchao): update imports of quantizer](https://github.com/PrunaAI/pruna/pull/549) — `PrunaAI/pruna`
+94. [fix: cache handling in `SmashConfig` due to invalid path exception](https://github.com/PrunaAI/pruna/pull/598) — `PrunaAI/pruna`
+95. [fix: namespace package conflict of optimum and optimum-quanto ](https://github.com/PrunaAI/pruna/pull/298) — `PrunaAI/pruna`
+96. [fix: remove pruna-pro hook from pre-commit](https://github.com/PrunaAI/pruna/pull/572) — `PrunaAI/pruna`
+97. [Pin `torchao==0.12.0` to avoid PyTorch ABI warnings, also pin `numpydoc>=1.6.0` and `ty==0.0.1a21` for compatibility.](https://github.com/PrunaAI/pruna/pull/417) — `PrunaAI/pruna`
+98. [Reduce Flakiness in CI by configuring HF Token and add caching for HF datasets and models](https://github.com/PrunaAI/pruna/pull/406) — `PrunaAI/pruna`
+99. [test: add pytest and code coverage configuration in `pyproject.toml`](https://github.com/PrunaAI/pruna/pull/230) — `PrunaAI/pruna`
+100. [Add a Additional Example that showcases the usage of `torch.autograd.functional.jacobian`](https://github.com/pytorch/pytorch/pull/155683) — `pytorch/pytorch`
+101. [Document the default garbage_collection_threshold value and improve the organization of cuda docs](https://github.com/pytorch/pytorch/pull/155341) — `pytorch/pytorch`
+102. [Add Contributing Guidelines](https://github.com/skorch-dev/skorch/pull/1097) — `skorch-dev/skorch`
+103. [Add Example for Skorch DataLoader](https://github.com/skorch-dev/skorch/pull/1105) — `skorch-dev/skorch`
+104. [Add Optuna Example for Skorch](https://github.com/skorch-dev/skorch/pull/1098) — `skorch-dev/skorch`
+105. [Add pyproject.toml to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108) — `skorch-dev/skorch`
+106. [Nit Fix in LR Scheduler Notebook](https://github.com/skorch-dev/skorch/pull/1099) — `skorch-dev/skorch`
+107. [Notebook for Learning Rate Scheduler](https://github.com/skorch-dev/skorch/pull/1074) — `skorch-dev/skorch`
+
+## 📊 Contribution Insights
+
+### 🔁 PRs per Repository
+- `huggingface/diffusers`: 19 PRs
+- `PrunaAI/pruna`: 15 PRs
+- `huggingface/notebooks`: 12 PRs
+- `linkedin/Liger-Kernel`: 11 PRs
+- `optuna/optuna-examples`: 8 PRs
+- `optuna/optuna`: 7 PRs
+- `huggingface/transformers`: 6 PRs
+- `skorch-dev/skorch`: 6 PRs
+- `optuna/optuna-integration`: 5 PRs
+- `huggingface/trl`: 2 PRs
+- `mlabonne/llm-datasets`: 2 PRs
+- `pytorch/pytorch`: 2 PRs
+- `argilla-io/distilabel`: 1 PRs
+- `cfahlgren1/observers`: 1 PRs
+- `code-butter/blog`: 1 PRs
+- `gradio-app/trackio`: 1 PRs
+- `hiyouga/LlamaFactory`: 1 PRs
+- `huggingface/blog`: 1 PRs
+- `huggingface/cookbook`: 1 PRs
+- `huggingface/dataset-viewer`: 1 PRs
+- `huggingface/lighteval`: 1 PRs
+- `Lightning-AI/litgpt`: 1 PRs
+- `Meesho/BharatMLStack`: 1 PRs
+- `NannyML/The-Little-Book-of-ML-Metrics`: 1 PRs
+
+### 📦 Repository Activity (sorted by stars)
+- `huggingface/transformers` → ⭐ 158,853, forks 32,746, open issues 2,359
+- `pytorch/pytorch` → ⭐ 98,824, forks 27,413, open issues 18,215
+- `hiyouga/LlamaFactory` → ⭐ 69,585, forks 8,476, open issues 948
+- `huggingface/diffusers` → ⭐ 33,269, forks 6,895, open issues 984
+- `huggingface/trl` → ⭐ 17,933, forks 2,616, open issues 665
+- `optuna/optuna` → ⭐ 13,854, forks 1,292, open issues 25
+- `Lightning-AI/litgpt` → ⭐ 13,280, forks 1,418, open issues 253
+- `linkedin/Liger-Kernel` → ⭐ 6,260, forks 509, open issues 140
+- `skorch-dev/skorch` → ⭐ 6,151, forks 406, open issues 66
+- `huggingface/notebooks` → ⭐ 4,504, forks 1,810, open issues 228
+- `mlabonne/llm-datasets` → ⭐ 4,404, forks 358, open issues 8
+- `huggingface/blog` → ⭐ 3,365, forks 992, open issues 231
+- `argilla-io/distilabel` → ⭐ 3,155, forks 232, open issues 94
+- `huggingface/cookbook` → ⭐ 2,634, forks 406, open issues 59
+- `huggingface/lighteval` → ⭐ 2,367, forks 446, open issues 298
+- `gradio-app/trackio` → ⭐ 1,370, forks 105, open issues 3
+- `PrunaAI/pruna` → ⭐ 1,156, forks 88, open issues 64
+- `NannyML/The-Little-Book-of-ML-Metrics` → ⭐ 997, forks 83, open issues 97
+- `huggingface/dataset-viewer` → ⭐ 856, forks 110, open issues 162
+- `optuna/optuna-examples` → ⭐ 843, forks 195, open issues 3
+- `Meesho/BharatMLStack` → ⭐ 684, forks 73, open issues 28
+- `cfahlgren1/observers` → ⭐ 254, forks 27, open issues 18
+- `optuna/optuna-integration` → ⭐ 67, forks 41, open issues 10
+- `code-butter/blog` → ⭐ 3, forks 0, open issues 0
