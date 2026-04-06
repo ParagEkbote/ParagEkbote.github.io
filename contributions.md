@@ -4,11 +4,11 @@ Merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote
 
 ---
 
-**Total merged PRs:** 106
+**Total merged PRs:** 107
 
 **Unique repositories:** 24
 
-**Combined repository stars:** 444,554 ⭐
+**Combined repository stars:** 444,661 ⭐
 
 ![Open Source Contributions](./src/assets/oss_hero_img.webp)
 
@@ -107,14 +107,15 @@ Merged pull requests contributed by [ParagEkbote](https://github.com/ParagEkbote
 93. [fix(torchao): update imports of quantizer](https://github.com/PrunaAI/pruna/pull/549) — `PrunaAI/pruna`
 94. [fix: cache handling in `SmashConfig` due to invalid path exception](https://github.com/PrunaAI/pruna/pull/598) — `PrunaAI/pruna`
 95. [fix: namespace package conflict of optimum and optimum-quanto ](https://github.com/PrunaAI/pruna/pull/298) — `PrunaAI/pruna`
-96. [Pin `torchao==0.12.0` to avoid PyTorch ABI warnings, also pin `numpydoc>=1.6.0` and `ty==0.0.1a21` for compatibility.](https://github.com/PrunaAI/pruna/pull/417) — `PrunaAI/pruna`
-97. [Reduce Flakiness in CI by configuring HF Token and add caching for HF datasets and models](https://github.com/PrunaAI/pruna/pull/406) — `PrunaAI/pruna`
-98. [test: add pytest and code coverage configuration in `pyproject.toml`](https://github.com/PrunaAI/pruna/pull/230) — `PrunaAI/pruna`
-99. [Add a Additional Example that showcases the usage of `torch.autograd.functional.jacobian`](https://github.com/pytorch/pytorch/pull/155683) — `pytorch/pytorch`
-100. [Document the default garbage_collection_threshold value and improve the organization of cuda docs](https://github.com/pytorch/pytorch/pull/155341) — `pytorch/pytorch`
-101. [Add Contributing Guidelines](https://github.com/skorch-dev/skorch/pull/1097) — `skorch-dev/skorch`
-102. [Add Example for Skorch DataLoader](https://github.com/skorch-dev/skorch/pull/1105) — `skorch-dev/skorch`
-103. [Add Optuna Example for Skorch](https://github.com/skorch-dev/skorch/pull/1098) — `skorch-dev/skorch`
-104. [Add pyproject.toml to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108) — `skorch-dev/skorch`
-105. [Nit Fix in LR Scheduler Notebook](https://github.com/skorch-dev/skorch/pull/1099) — `skorch-dev/skorch`
-106. [Notebook for Learning Rate Scheduler](https://github.com/skorch-dev/skorch/pull/1074) — `skorch-dev/skorch`
+96. [fix: remove pruna-pro hook from pre-commit](https://github.com/PrunaAI/pruna/pull/572) — `PrunaAI/pruna`
+97. [Pin `torchao==0.12.0` to avoid PyTorch ABI warnings, also pin `numpydoc>=1.6.0` and `ty==0.0.1a21` for compatibility.](https://github.com/PrunaAI/pruna/pull/417) — `PrunaAI/pruna`
+98. [Reduce Flakiness in CI by configuring HF Token and add caching for HF datasets and models](https://github.com/PrunaAI/pruna/pull/406) — `PrunaAI/pruna`
+99. [test: add pytest and code coverage configuration in `pyproject.toml`](https://github.com/PrunaAI/pruna/pull/230) — `PrunaAI/pruna`
+100. [Add a Additional Example that showcases the usage of `torch.autograd.functional.jacobian`](https://github.com/pytorch/pytorch/pull/155683) — `pytorch/pytorch`
+101. [Document the default garbage_collection_threshold value and improve the organization of cuda docs](https://github.com/pytorch/pytorch/pull/155341) — `pytorch/pytorch`
+102. [Add Contributing Guidelines](https://github.com/skorch-dev/skorch/pull/1097) — `skorch-dev/skorch`
+103. [Add Example for Skorch DataLoader](https://github.com/skorch-dev/skorch/pull/1105) — `skorch-dev/skorch`
+104. [Add Optuna Example for Skorch](https://github.com/skorch-dev/skorch/pull/1098) — `skorch-dev/skorch`
+105. [Add pyproject.toml to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108) — `skorch-dev/skorch`
+106. [Nit Fix in LR Scheduler Notebook](https://github.com/skorch-dev/skorch/pull/1099) — `skorch-dev/skorch`
+107. [Notebook for Learning Rate Scheduler](https://github.com/skorch-dev/skorch/pull/1074) — `skorch-dev/skorch`
