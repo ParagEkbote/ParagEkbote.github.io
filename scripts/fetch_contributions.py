@@ -349,8 +349,8 @@ def write_markdown(prs, repo_stats, contrib_stats,
 
         # ---- existing static badges ----
         f.write(
-            "[![View Raw Markdown](https://img.shields.io/badge/View-Raw%20Markdown"
-            "-blue?style=for-the-badge)](./contributions.md)\n\n"
+            f"[![View Raw Markdown](https://img.shields.io/badge/View-Raw%20Markdown"
+            f"-blue?style=for-the-badge)]({CONTRIBUTIONS_URL})\n\n"
         )
 
         # ---- chat badges injected right after the static ones ----
