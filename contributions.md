@@ -10,7 +10,7 @@
 
 **Unique repositories:** 24
 
-**Combined repository stars:** 444,668 ⭐
+**Combined repository stars:** 444,661 ⭐
 
 ![Open Source Contributions](./src/assets/oss_hero_img.webp)
 
@@ -121,57 +121,3 @@
 105. [Add pyproject.toml to Improve CI/CD and Tooling](https://github.com/skorch-dev/skorch/pull/1108) — `skorch-dev/skorch`
 106. [Nit Fix in LR Scheduler Notebook](https://github.com/skorch-dev/skorch/pull/1099) — `skorch-dev/skorch`
 107. [Notebook for Learning Rate Scheduler](https://github.com/skorch-dev/skorch/pull/1074) — `skorch-dev/skorch`
-
-## 📊 Contribution Insights
-
-### 🔁 PRs per Repository
-- `huggingface/diffusers`: 19 PRs
-- `PrunaAI/pruna`: 15 PRs
-- `huggingface/notebooks`: 12 PRs
-- `linkedin/Liger-Kernel`: 11 PRs
-- `optuna/optuna-examples`: 8 PRs
-- `optuna/optuna`: 7 PRs
-- `huggingface/transformers`: 6 PRs
-- `skorch-dev/skorch`: 6 PRs
-- `optuna/optuna-integration`: 5 PRs
-- `huggingface/trl`: 2 PRs
-- `mlabonne/llm-datasets`: 2 PRs
-- `pytorch/pytorch`: 2 PRs
-- `argilla-io/distilabel`: 1 PRs
-- `cfahlgren1/observers`: 1 PRs
-- `code-butter/blog`: 1 PRs
-- `gradio-app/trackio`: 1 PRs
-- `hiyouga/LlamaFactory`: 1 PRs
-- `huggingface/blog`: 1 PRs
-- `huggingface/cookbook`: 1 PRs
-- `huggingface/dataset-viewer`: 1 PRs
-- `huggingface/lighteval`: 1 PRs
-- `Lightning-AI/litgpt`: 1 PRs
-- `Meesho/BharatMLStack`: 1 PRs
-- `NannyML/The-Little-Book-of-ML-Metrics`: 1 PRs
-
-### 📦 Repository Activity (sorted by stars)
-- `huggingface/transformers` → ⭐ 158,853, forks 32,746, open issues 2,359
-- `pytorch/pytorch` → ⭐ 98,824, forks 27,413, open issues 18,215
-- `hiyouga/LlamaFactory` → ⭐ 69,585, forks 8,476, open issues 948
-- `huggingface/diffusers` → ⭐ 33,269, forks 6,895, open issues 984
-- `huggingface/trl` → ⭐ 17,933, forks 2,616, open issues 665
-- `optuna/optuna` → ⭐ 13,854, forks 1,292, open issues 25
-- `Lightning-AI/litgpt` → ⭐ 13,280, forks 1,418, open issues 253
-- `linkedin/Liger-Kernel` → ⭐ 6,260, forks 509, open issues 140
-- `skorch-dev/skorch` → ⭐ 6,151, forks 406, open issues 66
-- `huggingface/notebooks` → ⭐ 4,504, forks 1,810, open issues 228
-- `mlabonne/llm-datasets` → ⭐ 4,404, forks 358, open issues 8
-- `huggingface/blog` → ⭐ 3,365, forks 992, open issues 231
-- `argilla-io/distilabel` → ⭐ 3,155, forks 232, open issues 94
-- `huggingface/cookbook` → ⭐ 2,634, forks 406, open issues 59
-- `huggingface/lighteval` → ⭐ 2,367, forks 446, open issues 298
-- `gradio-app/trackio` → ⭐ 1,370, forks 105, open issues 3
-- `PrunaAI/pruna` → ⭐ 1,156, forks 88, open issues 64
-- `NannyML/The-Little-Book-of-ML-Metrics` → ⭐ 997, forks 83, open issues 97
-- `huggingface/dataset-viewer` → ⭐ 856, forks 110, open issues 162
-- `optuna/optuna-examples` → ⭐ 843, forks 195, open issues 3
-- `Meesho/BharatMLStack` → ⭐ 684, forks 73, open issues 28
-- `cfahlgren1/observers` → ⭐ 254, forks 27, open issues 18
-- `optuna/optuna-integration` → ⭐ 67, forks 41, open issues 10
-- `code-butter/blog` → ⭐ 3, forks 0, open issues 0
