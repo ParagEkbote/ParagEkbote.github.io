@@ -1,26 +1,109 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a> |
-      <a href="/research/">Research</a>
-    </nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo">Parag Ekbote</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="/research/">Research</a>
+          <a href="/code/">Code</a>
+          <a href="/projects/">Projects</a>
+          <a href="/experience/">Experience</a>
+        </nav>
+        <div class="header-actions">
+          <a href="https://github.com/ParagEkbote" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/parag-ekbote" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:parag.ekbote@example.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+    </header>
 
-    <main>
-      <h1>Welcome</h1>
-<p>This is your Eleventy site.</p>
-<p><button onclick="askAI()">Ask AI</button></p>
+    <main class="container page-content">
+      
+<section class="hero">
+  <h1>Parag Ekbote</h1>
+  <h2>ML Engineer | Open Source Contributor</h2>
+  <p>
+    Building tools that help the AI/ML community. 104+ contributions across HuggingFace, PyTorch, LinkedIn, and more.
+  </p>
+</section>
+<section class="stats-grid">
+  <div class="card">
+    <span class="num" data-target="104">0</span>
+    <p>Merged PRs</p>
+  </div>
+  <div class="card">
+    <span class="num" data-target="25">0</span>
+    <p>HuggingFace</p>
+  </div>
+  <div class="card">
+    <span class="num" data-target="24">0</span>
+    <p>Repositories</p>
+  </div>
+  <div class="card">
+    <span class="num" data-target="439" data-suffix="K+">0</span>
+    <p>GitHub ⭐</p>
+  </div>
+  <div class="card">
+    <span class="num" data-target="5">0</span>
+    <p>Publications</p>
+  </div>
+  <div class="card">
+    <span class="label">D.Y. Patil</span>
+    <p>Vidyapeeth</p>
+  </div>
+</section>
+<section class="nav-grid">
+  <a href="/research/" class="nav-card">🔬 Research</a>
+  <a href="/code/" class="nav-card">💻 Code & OSS</a>
+  <a href="/projects/" class="nav-card">🚀 Projects</a>
+  <a href="/experience/" class="nav-card">📚 Experience</a>
+  <a href="#about" class="nav-card">⭐ About</a>
+</section>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const counters = document.querySelectorAll('.num');
+    const duration = 1200;
+
+    counters.forEach(counter => {
+      const target = Number(counter.dataset.target) || 0;
+      const suffix = counter.dataset.suffix || '';
+      let current = 0;
+      const step = Math.max(Math.ceil(target / (duration / 16)), 1);
+
+      const update = () => {
+        current += step;
+        if (current >= target) {
+          counter.textContent = target + suffix;
+        } else {
+          counter.textContent = current + suffix;
+          requestAnimationFrame(update);
+        }
+      };
+
+      update();
+    });
+  });
+</script>
     </main>
 
-    <script>
-      function askAI() {
-        alert("AI button clicked");
-      }
-    </script>
-  </body>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2024 Parag Ekbote</p>
+        <div class="footer-links">
+          <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a>
+          <a href="https://scholar.google.com/">Google Scholar</a>
+          <a href="https://medium.com/">Medium</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
