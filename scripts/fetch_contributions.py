@@ -1,7 +1,8 @@
 import os
 import requests
 import subprocess
-import time
+import httpx
+import asyncio
 import urllib.parse
 from pathlib import Path
 from collections import Counter
@@ -154,58 +155,96 @@ def fetch_repo_metadata(repo_name):
     logger.warning(f"Failed to fetch metadata for {repo_name}")
     return {"stars": 0, "forks": 0, "open_issues": 0}
 
+async def _fetch_repo_metadata_async(client, repo_name, semaphore):
+    async with semaphore:
+        resp = await client.get(f"{REST_URL}/repos/{repo_name}", headers=HEADERS)
+
+        if resp.status_code == 200:
+            data = resp.json()
+            return repo_name, {
+                "stars": data.get("stargazers_count", 0),
+                "forks": data.get("forks_count", 0),
+                "open_issues": data.get("open_issues_count", 0),
+            }
+
+        logger.warning(f"Failed to fetch metadata for {repo_name}")
+        return repo_name, {"stars": 0, "forks": 0, "open_issues": 0}
 
 def calculate_repo_stats(prs):
-    unique_repos = sorted({pr["repository"]["nameWithOwner"] for pr in prs})
-    repo_stats   = {}
+    async def _inner():
+        unique_repos = sorted({pr["repository"]["nameWithOwner"] for pr in prs})
 
-    logger.info(f"Fetching metadata for {len(unique_repos)} repositories")
+        logger.info(f"Fetching metadata for {len(unique_repos)} repositories")
 
-    for repo in unique_repos:
-        repo_stats[repo] = fetch_repo_metadata(repo)
-        logger.debug(f"{repo} → ⭐ {repo_stats[repo]['stars']}")
-        time.sleep(0.2)
+        limits = httpx.Limits(max_connections=15)
+        semaphore = asyncio.Semaphore(10)
 
-    return {
-        "total_stars": sum(m["stars"] for m in repo_stats.values()),
-        "repo_stats":  repo_stats,
-    }
+        async with httpx.AsyncClient(timeout=15, limits=limits) as client:
+            tasks = [
+                _fetch_repo_metadata_async(client, repo, semaphore)
+                for repo in unique_repos
+            ]
+            results = await asyncio.gather(*tasks)
+
+        repo_stats = dict(results)
+
+        return {
+            "total_stars": sum(m["stars"] for m in repo_stats.values()),
+            "repo_stats": repo_stats,
+        }
+
+    return asyncio.run(_inner())
 
 # -------------------------------------------------------
 # PR ENRICHMENT
 # -------------------------------------------------------
+async def _fetch_pr_stats_async(client, pr, semaphore):
+    async with semaphore:
 
-def enrich_prs_with_efficiency(prs, repo_stats):
-    logger.info("Enriching PRs with efficiency metrics")
-
-    for pr in prs:
-        repo    = pr["repository"]["nameWithOwner"]
         api_url = (
             pr["url"]
             .replace("https://github.com/", "https://api.github.com/repos/")
             .replace("/pull/", "/pulls/")
         )
 
-        resp = requests.get(api_url, headers=HEADERS)
+        resp = await client.get(api_url, headers=HEADERS)
 
         if resp.status_code == 200:
-            data      = resp.json()
+            data = resp.json()
             additions = data.get("additions", 0)
             deletions = data.get("deletions", 0)
         else:
             additions, deletions = 0, 0
             logger.warning(f"Failed PR stats fetch: {pr['url']}")
 
-        pr_size    = additions + deletions
-        stars      = repo_stats.get(repo, {}).get("stars", 0)
-        efficiency = stars / pr_size if pr_size > 0 else 0
+        pr_size = additions + deletions
+        return pr, pr_size
 
-        pr["stats"] = {"size": pr_size, "efficiency": efficiency}
-        logger.debug(f"{repo} | size={pr_size} | efficiency={efficiency:.4f}")
-        time.sleep(0.1)
+def enrich_prs_with_efficiency(prs, repo_stats):
+    async def _inner():
+        logger.info("Enriching PRs with efficiency metrics")
 
-    return prs
+        limits = httpx.Limits(max_connections=15)
+        semaphore = asyncio.Semaphore(10)
 
+        async with httpx.AsyncClient(timeout=15, limits=limits) as client:
+            tasks = [
+                _fetch_pr_stats_async(client, pr, semaphore)
+                for pr in prs
+            ]
+            results = await asyncio.gather(*tasks)
+
+        for pr, pr_size in results:
+            repo = pr["repository"]["nameWithOwner"]
+            stars = repo_stats.get(repo, {}).get("stars", 0)
+
+            efficiency = stars / pr_size if pr_size > 0 else 0
+
+            pr["stats"] = {"size": pr_size, "efficiency": efficiency}
+
+        return prs
+
+    return asyncio.run(_inner())
 
 def compute_repo_contribution_stats(prs):
     logger.info("Computing repository contribution stats")
