@@ -363,7 +363,7 @@ def write_markdown(prs, repo_stats, contrib_stats,
         f.write(f"**Unique repositories:** {len(repo_stats['repo_stats'])}\n\n")
         f.write(f"**Combined repository stars:** {repo_stats['total_stars']:,} ⭐\n\n")
 
-        f.write("![Open Source Contributions](./src/assets/oss_hero_img.webp)\n\n")
+        f.write("![Open Source Contributions](assets/oss_hero_img.webp)\n\n")
 
         for idx, pr in enumerate(prs, start=1):
             repo = pr["repository"]["nameWithOwner"]

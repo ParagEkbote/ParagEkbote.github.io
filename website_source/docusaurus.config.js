@@ -78,12 +78,16 @@ const config = {
                 href: 'https://github.com/ParagEkbote',
               },
               {
+                label: 'Hugging Face',
+                href: 'https://huggingface.co/AINovice2005',
+              },
+              {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/in/parag-ekbote',
               },
               {
                 label: 'Email',
-                href: 'mailto:your-email@example.com',
+                href: 'mailto:paragekbote23@gmail.com',
               },
             ],
           },
