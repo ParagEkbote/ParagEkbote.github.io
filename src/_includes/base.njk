@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a> |
+      <a href="/research/">Research</a>
+    </nav>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <script>
+      function askAI() {
+        alert("AI button clicked");
+      }
+    </script>
+  </body>
+</html>
